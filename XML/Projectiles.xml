@@ -58,6 +58,12 @@
 		<Projectile_Damage>2.0</Projectile_Damage>
 		<Space_Model_Name>w_turbolaser_r4b.ALO</Space_Model_Name>
 	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Dummy">
+		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Space_Model_Name>w_turbolaser_dummy.ALO</Space_Model_Name>
+	</Projectile>
 
 	<!--<Projectile Name="Proj_Ship_Small_Laser_Cannon_Red_X2" Description="Rebel small space-based laser bolt w/ boosted damage">
 		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>
@@ -4513,6 +4519,8 @@
 
 
 </Projectiles>
+
+
 
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Squadrons>
 
-	<Squadron Name="Rebel_X-Wing_Squadron">
+	<!--<Squadron Name="Rebel_X-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
 		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype </Encyclopedia_Good_Against>
@@ -53,7 +53,6 @@
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 	
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
 			
@@ -67,21 +66,19 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
-	</Squadron>
+	</Squadron>-->
 
 
 
-	<Squadron Name="Y-Wing_Squadron">
+	<!--<Squadron Name="Y-Wing_Squadron">
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
@@ -128,12 +125,10 @@
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		
-		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>Y_Wing_Squadron_Container </Create_Team_Type>
      	<Max_Squad_Size> 6 </Max_Squad_Size>
 			
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 			</Unit_Ability>
@@ -142,17 +137,15 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-	</Squadron>
+	</Squadron>-->
 	
 	
 	<Squadron Name="Y-Wing_Squadron_No_Ability">
@@ -212,7 +205,7 @@
 
 
 
-	<Squadron Name="TIE_Fighter_Squadron">
+	<!--<Squadron Name="TIE_Fighter_Squadron">
 		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>
@@ -264,9 +257,7 @@
 		<Property_Flags> SmallShip </Property_Flags>
 		<Score_Cost_Credits> 420</Score_Cost_Credits>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
@@ -275,16 +266,14 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>1</Population_Value>
-	</Squadron>
+	</Squadron>-->
 	
 	<Squadron Name="Gozanti_TIE_Fighter_Squadron">
 		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
@@ -356,7 +345,7 @@
 		<Population_Value>1</Population_Value>
 	</Squadron>
 
-	<Squadron Name="TIE_Bomber_Squadron">
+	<!--<Squadron Name="TIE_Bomber_Squadron">
 		<Text_ID>TEXT_TIE_BOMBER_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>
@@ -407,19 +396,17 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 370</Score_Cost_Credits>
-	</Squadron>
+	</Squadron>-->
 
-	<Squadron Name="A_Wing_Squadron">
+	<!--<Squadron Name="A_Wing_Squadron">
 		<Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
@@ -468,12 +455,9 @@
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
 		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>LURE</Type>
-				<!-- details in the unit's XML -->
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
@@ -482,16 +466,14 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>1</Population_Value>
-	</Squadron>
+	</Squadron>-->
 
 	<Squadron Name="TIE_Scout_Squadron">
 		<Text_ID>TEXT_TIE_SCOUT_SQUADRON</Text_ID>
@@ -1274,3 +1256,4 @@
 
 
 </Squadrons>
+

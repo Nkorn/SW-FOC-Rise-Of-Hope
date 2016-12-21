@@ -7,5 +7,16 @@
 	<File>Hardpoints_Empire_Arquitens.xml</File>
 	<File>Hardpoints_Empire_Gozanti.xml</File>
 	<File>Hardpoints_Empire_Interdictor.xml</File>
+	<File>Hardpoints_Z-95.xml</File>
+	<File>Hardpoints_Y-Wing.xml</File>
+	<File>Hardpoints_X-Wing.xml</File>
+	<File>Hardpoints_B-Wing.xml</File>
+	<File>Hardpoints_A-Wing.xml</File>
+	<File>Hardpoints_TIE_IN.xml</File>
+	<File>Hardpoints_TIE_SA.xml</File>
+	<File>Hardpoints_TIE_SK.xml</File>
+	<File>Hardpoints_TIE_IT.xml</File>
+	<File>Hardpoints_TIE_D.xml</File>
 </Hard_Point_Files>
+
 

@@ -18,6 +18,9 @@
 	<File>GroundBuildablesEmpire.xml</File>
 	<File>GroundBuildablesPirate.xml</File>
 	<File>GroundBuildablesSkirmish.xml</File>
+	
+	<File>Marker_Bombing.xml</File>
+	<File>Projectiles_Bombing_Run.xml</File>
 
 	<File>SpaceProps.xml</File>
 	<File>SpaceUnitsCapital.xml</File>
@@ -91,13 +94,17 @@
 
 	<File>Units_Hero_Empire_Thrawn.xml</File>
 
-	<File>Units_Space_Empire_TIE_Defender.xml</File>
-	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
 	<File>Units_Space_Empire_Arquitens.xml</File>
 	<File>Units_Space_Empire_Gozanti.xml</File>
 	<File>Units_Space_Empire_Interdictor.xml</File>
 	<File>Units_Space_Empire_Executor.xml</File>
+	<File>Units_Space_Empire_TIE_LN.xml</File>
+	<File>Units_Space_Empire_TIE_IN.xml</File>
+	<File>Units_Space_Empire_TIE_SA.xml</File>
+	<File>Units_Space_Empire_TIE_SK.xml</File>
+	<File>Units_Space_Empire_TIE_IT.xml</File>
+	<File>Units_Space_Empire_TIE_D.xml</File>
 	
 	<File>Units_Land_Empire_DarkTroopers.xml</File>
 	<File>Units_Land_Empire_Lancet.xml</File>
@@ -115,7 +122,12 @@
 
 	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
-	<File>Units_Space_Rebel_BWing.xml</File>	
+        <File>Units_Space_Rebel_Z-95.xml</File>
+        <File>Units_Space_Rebel_X_Wing.xml</File>
+        <File>Units_Space_Rebel_Y_Wing.xml</File>
+        <File>Units_Space_Rebel_A_Wing.xml</File>
+        <File>Units_Space_Rebel_A_Wing_Phoenix_Squardon.xml</File>
+        <File>Units_Space_Rebel_B_Wing.xml</File>
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
 
 
@@ -177,3 +189,6 @@
 
 
 </Game_Object_Files>
+
+
+
