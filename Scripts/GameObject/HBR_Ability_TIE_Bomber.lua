@@ -27,9 +27,9 @@
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 --@ORIGINAL AUTHOR: Kad_Venku
 --@EDITED BY: Bucman_55
---@FILE: HBR_Ability_Y-Wing
+--@FILE: HBR_Ability_TIE_Bomber
 --@DATE: 12.20.2016
---@TIME: 5:11
+--@TIME: 4:32
 --/////////////////////////////////////////////////////////////////////////////////////////////////
 
 require("PGBase")
@@ -76,7 +76,7 @@ function Definitions()
     ability_was_triggered=false
     adv_state=false
 
-    unit_type="Y-Wing"
+    unit_type="TIE_Bomber"
     squadron={}
 end
 
