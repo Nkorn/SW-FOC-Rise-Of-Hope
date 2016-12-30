@@ -93,6 +93,7 @@
 	<!-- Expansion Units: Empire -->
 
 	<File>Units_Hero_Empire_Thrawn.xml</File>
+	<File>Units_Hero_Empire_Boba_Fett.xml</File>
 
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
 	<File>Units_Space_Empire_Arquitens.xml</File>
@@ -116,9 +117,11 @@
 	<!-- Expansion Units: Rebel -->
 	
 	<File>Units_Hero_Rebel_Yoda.xml</File>
-	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
+	<File>Units_Hero_Rebel_Luke_Skywalker.xml</File>
 	<File>Units_Hero_Rebel_Gargantuan.xml</File>
 	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
+	<File>Units_Hero_Rebel_Han_and_Chewie.xml</File>
+	<File>Units_Hero_Rebel_Dash_Rendar.xml</File>
 
 	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
@@ -129,6 +132,8 @@
         <File>Units_Space_Rebel_A_Wing_Phoenix_Squardon.xml</File>
         <File>Units_Space_Rebel_B_Wing.xml</File>
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
+	<File>Units_Space_Rebel_YT_1300.xml</File>
+	<File>Units_Space_Rebel_YT_2400.xml</File>
 
 
 
@@ -189,6 +194,9 @@
 
 
 </Game_Object_Files>
+
+
+
 
 
 

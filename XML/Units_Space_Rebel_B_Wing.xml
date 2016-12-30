@@ -57,16 +57,16 @@
 		<Build_Cost_Credits>120</Build_Cost_Credits>
 		<Build_Time_Seconds>13</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT </SpaceBehavior>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA, HUNT</SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>5</Damage>
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-		
+
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-		
+
 		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Dummy</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
@@ -138,7 +138,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -151,25 +151,11 @@
 
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-			
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>6</Expiration_Seconds>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-            
+
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
 
 	</SpaceUnit>
@@ -186,7 +172,7 @@
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender </Encyclopedia_Vulnerable_To>
 		<Icon_Name>i_button_RV_BWing.tga</Icon_Name>
-		
+
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -205,6 +191,7 @@
 		<Tech_Level>4</Tech_Level>
 		<Required_Timeline/>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures/>
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>B-Wing, B-Wing</Squadron_Units>
 		<Squadron_Units>B-Wing, B-Wing</Squadron_Units>
@@ -214,17 +201,17 @@
 		<Squadron_Units>B-Wing, B-Wing</Squadron_Units>
         <Max_Squad_Size>12</Max_Squad_Size>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
- 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-180.0,120.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-180.0,-120.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-240.0,15.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-240.0,-150.0,0.0</Squadron_Offsets>
-  		<Squadron_Offsets>-180.0,0.0,0.0</Squadron_Offsets>
+ 		<Squadron_Offsets>0.0,30.0,2.0</Squadron_Offsets>
+  		<Squadron_Offsets>0.0,-30.0,5.0</Squadron_Offsets>
+  		<Squadron_Offsets>-60.0,60.0,-1.0</Squadron_Offsets>
+  		<Squadron_Offsets>-60.0,-60.0,3.0</Squadron_Offsets>
+  		<Squadron_Offsets>-120.0,90.0,-6.0</Squadron_Offsets>
+  		<Squadron_Offsets>-120.0,-90.0,1.0</Squadron_Offsets>
+  		<Squadron_Offsets>-180.0,120.0,-2.0</Squadron_Offsets>
+  		<Squadron_Offsets>-180.0,-120.0,-4.0</Squadron_Offsets>
+  		<Squadron_Offsets>-240.0,15.0,6.0</Squadron_Offsets>
+  		<Squadron_Offsets>-240.0,-150.0,1.0</Squadron_Offsets>
+  		<Squadron_Offsets>-180.0,0.0,-5.0</Squadron_Offsets>
 
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -243,37 +230,23 @@
 		<Create_Team_Type> </Create_Team_Type>
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 900</Score_Cost_Credits>
-		
+
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-		
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-			
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.4f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-25.0</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0</Mod_Multiplier>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.2f</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>6</Expiration_Seconds>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_B_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-			</Unit_Ability>
-            
+
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
-	
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 	</Squadron>
@@ -282,6 +255,6 @@
 		<Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
 		<Tech_Level>6</Tech_Level>
 	</Squadron>
-	
+
 
 </A_SF-01_B-Wing_Starfighter>

@@ -47,6 +47,11 @@
 		<Space_Model_Name>w_turbolaser_r.ALO</Space_Model_Name>
 	</Projectile>
 	
+	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Red_Luke">
+		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>
+		<Projectile_Damage>2.0</Projectile_Damage>
+	</Projectile>
+	
 	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Red_Dual">
 		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Red</Variant_Of_Existing_Type>
 		<Projectile_Damage>1.0</Projectile_Damage>
@@ -4519,6 +4524,8 @@
 
 
 </Projectiles>
+
+
 
 
 

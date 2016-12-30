@@ -119,6 +119,27 @@
             </Unit_Ability>
         </Unit_Abilities_Data>
 		
+		<Abilities SubObjectList="Yes"> <!-- Code supplied by ThatOneBullet -->
+			<Force_Healing_Ability Name="Astromech_Repair">
+				<Activation_Style>Space_Automatic</Activation_Style> 
+				<Heal_Range>0.0</Heal_Range> 
+				<!-- Range must be zero to not affect other ships-->
+				<Heal_Percent>0.01</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>No</Single_Target_Heal>
+				<Applicable_Unit_Categories/>
+				<Applicable_Unit_Types/>
+				<SFXEvent_Target_Affected/>
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.0, 1.0, 1.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2/>
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -133,7 +154,7 @@
 	</SpaceUnit>
 
 
-	<Squadron Name="Rebel_X-Wing_Squadron">
+	<Squadron Name="X-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
 		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype </Encyclopedia_Good_Against>
@@ -166,17 +187,17 @@
 		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
         <Max_Squad_Size>12</Max_Squad_Size>
         <Squadron_Offsets>150.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>50.0,0.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>100.0,-50.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>100.0,50.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,150.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>50.0,100.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets> -50.0,100.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,50.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-150.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>-50.0,-100.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets> 50.0,-100.0,0.0</Squadron_Offsets>
-        <Squadron_Offsets>0.0,-50.0,0.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,0.0,-5.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,-50.0,2.0</Squadron_Offsets>
+        <Squadron_Offsets>100.0,50.0,6.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,150.0,1.0</Squadron_Offsets>
+        <Squadron_Offsets>50.0,100.0,-4.0</Squadron_Offsets>
+        <Squadron_Offsets> -50.0,100.0,4.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,50.0,5.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-150.0,-6.0</Squadron_Offsets>
+        <Squadron_Offsets>-50.0,-100.0,3.0</Squadron_Offsets>
+        <Squadron_Offsets> 50.0,-100.0,-2.0</Squadron_Offsets>
+        <Squadron_Offsets>0.0,-50.0,-1.0</Squadron_Offsets>
 		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
