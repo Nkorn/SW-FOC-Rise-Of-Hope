@@ -122,6 +122,8 @@
 	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
 	<File>Units_Hero_Rebel_Han_and_Chewie.xml</File>
 	<File>Units_Hero_Rebel_Dash_Rendar.xml</File>
+	<File>Units_Hero_Rebel_Raymus_Antilles.xml</File>
+	<File>Units_Minor_Hero_Gold_Squadron.xml</File>
 
 	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
@@ -134,6 +136,9 @@
 	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
 	<File>Units_Space_Rebel_YT_1300.xml</File>
 	<File>Units_Space_Rebel_YT_2400.xml</File>
+	<File>Units_Space_Rebel_CR-90.xml</File>
+	<File>Units_Space_Rebel_DP-20.xml</File>
+	<File>Units_Space_Rebel_MC12.xml</File>
 
 
 
@@ -194,6 +199,7 @@
 
 
 </Game_Object_Files>
+
 
 
 

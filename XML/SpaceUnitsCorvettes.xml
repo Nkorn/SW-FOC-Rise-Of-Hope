@@ -186,7 +186,7 @@
 
 	</SpaceUnit>
 
-	<SpaceUnit Name="Corellian_Corvette">
+	<!--<SpaceUnit Name="Corellian_Corvette">
 		<Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
@@ -201,8 +201,8 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>3.1</Max_Speed> <!-- Was 3.25 -->
-		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn> <!-- was 1.50 -->
+		<Max_Speed>3.1</Max_Speed>
+		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
@@ -317,9 +317,7 @@
 
 		<Tactical_Bribe_Cost>625</Tactical_Bribe_Cost>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>TURBO</Type>
 			
@@ -342,14 +340,12 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1250</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
 
@@ -370,9 +366,9 @@
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-	</SpaceUnit>
+	</SpaceUnit>-->
 
-	<SpaceUnit Name="Corellian_Gunboat">
+	<!--<SpaceUnit Name="Corellian_Gunboat">
 		<Text_ID>TEXT_UNIT_CORELLIAN_GUNBOAT</Text_ID>
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser TIE_Bomber Skipray_Blastboat</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Interceptor4_Frigate </Encyclopedia_Vulnerable_To>
@@ -386,8 +382,8 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
         <Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>2.1</Max_Speed>  <!-- was 3.0 -->
-		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn> <!-- was 1.6 -->
+		<Max_Speed>2.1</Max_Speed>
+		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
@@ -501,9 +497,7 @@
 
 		
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>TURBO</Type>
 			
@@ -527,14 +521,12 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1350</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2150</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
 
@@ -555,7 +547,7 @@
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-	</SpaceUnit>
+	</SpaceUnit>-->
 
 	<SpaceUnit Name="IPV1_System_Patrol_Craft">
 		<Text_ID>TEXT_UNIT_IPV1_SYSTEM</Text_ID>
@@ -1522,6 +1514,7 @@
 
 
 </SpaceCorvettes>
+
 
 
 

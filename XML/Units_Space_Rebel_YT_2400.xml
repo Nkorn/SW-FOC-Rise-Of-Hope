@@ -34,7 +34,7 @@
 
         <AI_Combat_Power>1000</AI_Combat_Power>
         <Hyperspace>Yes</Hyperspace>
-        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Hyperspace_Speed>2.0</Hyperspace_Speed> <!-- Class 2.0 -->
         <OverrideAcceleration>.3</OverrideAcceleration>
         <OverrideDeceleration>.3</OverrideDeceleration>
 
@@ -42,8 +42,7 @@
 		<Build_Time_Seconds>12</Build_Time_Seconds>
 		<Tech_Level>2</Tech_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Required_Timeline>3</Required_Timeline>
 
         <Armor_Type>Armor_Bomber</Armor_Type>
         <Shield_Armor_Type>Shield_Bomber</Shield_Armor_Type>
@@ -70,7 +69,7 @@
         <Death_Explosions>Medium_Explosion_Space</Death_Explosions>
         <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-        <Death_Clone>Damage_Normal, Medium_Explosion_Space</Death_Clone>
+        <Death_Clone>Damage_Normal, Millennium_Falcon_Death_Clone</Death_Clone>
 
         <HardPoints>
             HP_YT2400_LASER_01,
@@ -120,8 +119,6 @@
         <Hover_Offset>5</Hover_Offset>
         <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
-        
-        <Remove_Upon_Death>true</Remove_Upon_Death>
 
         <Guard_Chase_Range>1000.0</Guard_Chase_Range>
         <Idle_Chase_Range>400.0</Idle_Chase_Range>
@@ -141,7 +138,7 @@
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
         <Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites/>
+        <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <!--<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>-->
@@ -150,4 +147,3 @@
 
 	
 </YT-2400_Light_Freighter>
-

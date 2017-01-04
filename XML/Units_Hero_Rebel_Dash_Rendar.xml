@@ -8,6 +8,7 @@
 		<Text_ID>TEXT_HERO_DASH_RENDAR</Text_ID>
 		<Land_Model_Name>RI_DASHRENDAR.ALO</Land_Model_Name>
 		<Icon_Name>i_button_dash_rendar.tga</Icon_Name>
+		<Icon_Name />
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -210,8 +211,8 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures/>
-		<Required_Planets/>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Outrider</Company_Transport_Unit>
 		<Company_Units>Dash_Rendar</Company_Units>
@@ -277,7 +278,7 @@
 		
 		<Tactical_Build_Cost_Multiplayer>1800</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>33</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
@@ -323,7 +324,7 @@
 
         <AI_Combat_Power>1500</AI_Combat_Power>
         <Hyperspace>Yes</Hyperspace>
-        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Hyperspace_Speed>6.0</Hyperspace_Speed> <!-- Class 0.75 -->
         <OverrideAcceleration>.3</OverrideAcceleration>
         <OverrideDeceleration>.3</OverrideDeceleration>
         <Layer_Z_Adjust>-20</Layer_Z_Adjust>
@@ -413,7 +414,7 @@
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
         <Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites/>
+        <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>

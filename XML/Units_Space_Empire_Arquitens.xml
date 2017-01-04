@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <Arquitens_Data>
 
 	<!-- Only called Tartan Cruiser for coding purposes -->
@@ -40,7 +40,7 @@
         <Select_Box_Scale>350</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
-        <Hyperspace_Speed>1.5</Hyperspace_Speed>
+        <Hyperspace_Speed>3.0</Hyperspace_Speed> <!-- Class 1.5 -->
         <Maintenance_Cost>0.1</Maintenance_Cost>
         <Affiliation>Empire</Affiliation>
         <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -48,7 +48,7 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
-        <Required_Planets/>
+        <Required_Planets />
         <Ship_Class>corvette</Ship_Class>
         <Formation_Priority>3</Formation_Priority>
         <Is_Escort>yes</Is_Escort>
@@ -72,7 +72,7 @@
 
         <Death_Explosions>Large_Explosion_Space</Death_Explosions>
         <Death_Leave_Hulk_Behind>No</Death_Leave_Hulk_Behind>
-        <Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+        <Death_Clone>Damage_Normal, Imperial_Light_Cruiser_Death_Clone</Death_Clone>
         <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
         <HardPoints>
@@ -155,7 +155,7 @@
 				<Type>WEAKEN_ENEMY</Type>
                 <Alternate_Icon_Name>I_ABILITY_FLEET_REINFORCES.tga</Alternate_Icon_Name>
 				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLEET_REINFORCES</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_FLEET_REINFORCES_ARQUITENS</Alternate_Description_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_FLEET_REINFORCES_PEREGRINE</Alternate_Description_Text>
 				<Recharge_Seconds>240</Recharge_Seconds>
 			    <Spawned_Object_Type>Arquitens_Marker</Spawned_Object_Type>
 				<Effective_Radius> 0.0 </Effective_Radius>
@@ -176,29 +176,47 @@
 				<Expiration_Seconds>7</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tartan</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
 
-        <Encyclopedia_Text>TEXT_TOOLTIP_ARQUITENS</Encyclopedia_Text>
+        <Encyclopedia_Text>TEXT_TOOLTIP_TARTAN</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CRUISER</Encyclopedia_Unit_Class>
         <Score_Cost_Credits>1450</Score_Cost_Credits>
-        <Remove_Upon_Death>true</Remove_Upon_Death>
 
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
         <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites/>
+        <Tactical_Build_Prerequisites />
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
         <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
         <!--<MULTIPLAYER SKIRMISH VALUES END>-->
         <Population_Value>1</Population_Value>
     </SpaceUnit>
+    
+    <SpaceUnit Name="Imperial_Light_Cruiser_Death_Clone">
+        <Text_ID>TEXT_UNIT_TARTAN_CRUISER</Text_ID>
+        <Space_Model_Name>Ev_Light_Cruiser_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>Ev_Light_Cruiser_D.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+        <Scale_Factor>0.25</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Empire</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+    </SpaceUnit>
 
 	<Marker Name="Arquitens_Marker">
-		<Text_ID/>
+		<Text_ID></Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Lua_Script>ObjectScript_Arquitens_Reinforces</Lua_Script> 
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
@@ -212,4 +230,3 @@
 
 
 </Arquitens_Data>
-

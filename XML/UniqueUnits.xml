@@ -1391,7 +1391,7 @@
 
 
 	<!-- This ship belongs to Captain Antilles Rebel Hero -->
-	<UniqueUnit Name="Sundered_Heart">
+	<!--<UniqueUnit Name="Sundered_Heart">
 		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Bomber TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
@@ -1410,7 +1410,7 @@
 
         <Ranking_In_Category>3</Ranking_In_Category>
 		<Max_Speed>4.90</Max_Speed>
-		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>   <!-- increased to compensate for faster speed -->
+		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
@@ -1434,7 +1434,7 @@
 		<Autoresolve_Health>1800</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>1000</Shield_Points>
-		<Tactical_Health>1800</Tactical_Health><!-- Reverted to original value of 1800 from 5000 for MP  -->
+		<Tactical_Health>1800</Tactical_Health>
 		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
@@ -1510,23 +1510,18 @@
 
 		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
 
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>WEAKEN_ENEMY</Type>
 
 				<Recharge_Seconds>60</Recharge_Seconds>
 				
-				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
-				 <!-- The actual radius of ability is in projectile XML -->
 				 <Effective_Radius> 1000.0 </Effective_Radius>
 		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
                <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 
-                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
                 <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
 
 			</Unit_Ability>
@@ -1548,14 +1543,12 @@
 
 		</Unit_Abilities_Data>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		
 	</UniqueUnit>
 
@@ -1576,7 +1569,7 @@
 
 	<UniqueUnit Name="Sundered_Heart_Cinematic_Clone">
 		<Variant_Of_Existing_Type>Sundered_Heart</Variant_Of_Existing_Type>
-	</UniqueUnit>
+	</UniqueUnit>-->
 
 
 
@@ -2781,5 +2774,6 @@
 
 
 -->
+
 
 

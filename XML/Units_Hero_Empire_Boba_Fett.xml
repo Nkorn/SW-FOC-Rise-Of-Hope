@@ -195,7 +195,7 @@
 				
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types/>
+				<Applicable_Unit_Types />
 				<SFXEvent_Activate>Unit_Flamethrower_Fire</SFXEvent_Activate>
 				<Flame_Emitter_Model_Name>p_flamethrower00</Flame_Emitter_Model_Name>
 			</Personal_Flame_Thrower_Ability>
@@ -336,8 +336,8 @@
 		<Required_Timeline>4</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures/>
-		<Required_Planets/>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Slave_I</Company_Transport_Unit>
 		<Company_Units>Boba_Fett</Company_Units>
@@ -393,7 +393,7 @@
 
 		<Tactical_Build_Cost_Multiplayer>1450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
@@ -409,7 +409,7 @@
 		
 		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
@@ -441,7 +441,7 @@
 		<Bank_Turn_Angle>60</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>6.75</Hyperspace_Speed> <!-- Class 0.7 -->
 
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 
@@ -483,7 +483,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_SLAVE_ONE </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 
-		<Death_Clone>Damage_Normal, Medium_Explosion_Space_Empire</Death_Clone>
+		<Death_Clone>Damage_Normal, Slave_I_Death_Clone</Death_Clone>
 
 		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
 
@@ -524,7 +524,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -549,7 +549,6 @@
             </Unit_Ability>
 		</Unit_Abilities_Data>
 		<Lua_Script>Slave_I</Lua_Script>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</UniqueUnit>
 
 

@@ -33,7 +33,7 @@
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed> <!-- Class 2.0 -->
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
@@ -41,8 +41,8 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Special_Structures/>
-		<Required_Planets/>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>800</Shield_Points>
@@ -73,7 +73,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 
-		<Death_Clone>Damage_Normal, Large_Explosion_Space_Empire</Death_Clone>
+		<Death_Clone>Damage_Normal, Interdictor_Death_Clone</Death_Clone>
 
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
@@ -188,7 +188,7 @@
 				<Disable_Movement>Yes</Disable_Movement>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 			
 			<!-- Secondary ability -->
@@ -201,21 +201,20 @@
 				<Expiration_Seconds>0</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Supports_Autofire>True</Supports_Autofire>
 		</Unit_Ability>
 			
 		</Unit_Abilities_Data>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_INTERDICTOR</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CRUISER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 3000</Score_Cost_Credits>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -223,6 +222,23 @@
 		<Population_Value>3</Population_Value>
 	</SpaceUnit>
 
+    <SpaceUnit Name="Interdictor_Death_Clone">
+        <Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
+        <Space_Model_Name>EV_Interdictor_D.ALO</Space_Model_Name>
+        <xxxSpace_Model_Name>EV_Interdictor.ALO</xxxSpace_Model_Name>
+        <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+        <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+        <Scale_Factor>1</Scale_Factor>
+        <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+        <Max_Speed>1.2</Max_Speed>
+        <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+        <Max_Thrust>1</Max_Thrust>
+        <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+        <Bank_Turn_Angle>0</Bank_Turn_Angle>
+        <Affiliation>Rebel</Affiliation>
+        <Ship_Class>frigate</Ship_Class>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+
+    </SpaceUnit>
+
 </Interdictor_Cruiser>
-
-

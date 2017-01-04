@@ -339,7 +339,7 @@
 		<Bank_Turn_Angle>60</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Hyperspace_Speed>4.0</Hyperspace_Speed> <!-- Class 1.0 -->
 
 		<Behavior>SELECTABLE, TRANSPORT</Behavior>
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, NEBULA, DAMAGE_TRACKING, REVEAL, ABILITY_COUNTDOWN </SpaceBehavior>

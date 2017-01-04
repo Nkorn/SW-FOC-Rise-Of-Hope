@@ -509,7 +509,7 @@
 
         <AI_Combat_Power>1500</AI_Combat_Power>
         <Hyperspace>Yes</Hyperspace>
-        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Hyperspace_Speed>8.0</Hyperspace_Speed> <!-- Class 0.5 -->
         <OverrideAcceleration>.3</OverrideAcceleration>
         <OverrideDeceleration>.3</OverrideDeceleration>
         <Layer_Z_Adjust>-20</Layer_Z_Adjust>

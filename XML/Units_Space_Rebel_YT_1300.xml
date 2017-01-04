@@ -34,7 +34,7 @@
 
         <AI_Combat_Power>1000</AI_Combat_Power>
         <Hyperspace>Yes</Hyperspace>
-        <Hyperspace_Speed>2.0</Hyperspace_Speed>
+        <Hyperspace_Speed>2.0</Hyperspace_Speed> <!-- Class 2.0 -->
         <OverrideAcceleration>.3</OverrideAcceleration>
         <OverrideDeceleration>.3</OverrideDeceleration>
 
@@ -73,7 +73,6 @@
 
         <HardPoints>
             HP_YT1300_LASER_01,
-            HP_YT1300_LASER_02,
             HP_YT1300_PTL
         </HardPoints>
 
