@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<Raymus_Antilles>
+<Jun_Sato>
 
 
-	<!-- This ship belongs to Captain Antilles Rebel Hero -->
-	<UniqueUnit Name="Sundered_Heart">
-		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
+	<!-- This ship belongs to Commander Jun Sato Rebel Hero -->
+	<UniqueUnit Name="Liberator">
+		<Text_ID>TEXT_UNIT_LIBERATOR</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Bomber TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_captain_antillies.tga</Icon_Name>
+		<Icon_Name>i_button_jun_sato.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Hero_Ability/>
+		<Hero_Ability />
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>RV_SunderedHeart.alo</Space_Model_Name>
+		<Space_Model_Name>RV_CR90_Liberator.alo</Space_Model_Name>	
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -21,20 +21,21 @@
 		<Build_Cost_Credits>3000</Build_Cost_Credits>
 
         <Ranking_In_Category>3</Ranking_In_Category>
-		<Max_Speed>4.0</Max_Speed>
-		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>   <!-- increased to compensate for faster speed -->
+		<Max_Speed>3.0</Max_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
-		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>15</Bank_Turn_Angle>
-		<OverrideAcceleration> .12 </OverrideAcceleration>
-		<OverrideDeceleration> .12 </OverrideDeceleration>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.3</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>25</Bank_Turn_Angle>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
 
 		<Armor_Type> Armor_Corellian_Gunboat </Armor_Type>
-		<Max_Thrust>0.5</Max_Thrust>
+        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>3.0</Hyperspace_Speed>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
@@ -45,7 +46,7 @@
 		<Tech_Level>0</Tech_Level>
 		<Autoresolve_Health>1800</Autoresolve_Health>
 		<Damage>20</Damage>
-		<Shield_Points>1000</Shield_Points>
+		<Shield_Points>1800</Shield_Points>
 		<Tactical_Health>1800</Tactical_Health>
 		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
@@ -63,7 +64,6 @@
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-		<Lua_Script>Sundered_Heart</Lua_Script>
 
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
@@ -72,14 +72,16 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<HardPoints> 
-                HP_CR_90_Bridge,
-		HP_CR_90_Engines,
-		HP_CR_90_RAAL_01,
-		HP_CR_90_RAAL_02,
-		HP_CR_90_RAAL_03,
-		HP_CR_90_RAAL_04,
-		HP_CR_90_MTLT_01,
-		HP_CR_90_MTLT_02
+		HP_HERO_CR90_Bridge,
+		HP_HERO_CR90_Engines,
+		HP_HERO_CR90_RAAL_01,
+		HP_HERO_CR90_RAAL_02,
+		HP_HERO_CR90_RAAL_03,
+		HP_HERO_CR90_RAAL_04,
+		HP_HERO_CR90_MTLT_01,
+		HP_HERO_CR90_MTLT_02,
+		HP_HERO_CR90_FTL_01,
+		HP_HERO_CR90_FTL_02
 		</HardPoints>
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -96,11 +98,11 @@
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 		<SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_Antilles</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Antilles</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Antilles</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Antilles</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Antilles</SFXEvent_Guard>
+		<SFXEvent_Select>Unit_Select_Sato</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Sato</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Sato</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Sato</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Sato</SFXEvent_Guard>
 
 		<SFXEvent_Engine_Idle_Loop> Unit_Corvette_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Corvette_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
@@ -118,13 +120,14 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
-		<Death_Clone>Damage_Normal, Sundered_Heart_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal</Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Neutralization_Cost>2500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
 		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<Encyclopedia_Text>TEXT_TOOLTIP_ANTILLES</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SATO</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 
 		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
@@ -134,20 +137,16 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>WEAKEN_ENEMY</Type>
-
-				<Recharge_Seconds>60</Recharge_Seconds>
-				
-				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
-				 <!-- The actual radius of ability is in projectile XML -->
-				 <Effective_Radius> 1000.0 </Effective_Radius>
-		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
-               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+                <Alternate_Icon_Name>I_ABILITY_FLEET_REINFORCES.tga</Alternate_Icon_Name>
+				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_FLEET_REINFORCES</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_FLEET_REINFORCES_PEREGRINE</Alternate_Description_Text>
+				<Recharge_Seconds>180</Recharge_Seconds>
+			    <Spawned_Object_Type>Sato_Marker</Spawned_Object_Type>
+				<Effective_Radius> 0.0 </Effective_Radius>
+                <SFXEvent_Target_Ability> RHD_Reinforcements_En_Route </SFXEvent_Target_Ability>
+                <SFXEvent_GUI_Unit_Ability_Activated>RHD_Reinforcements_En_Route</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated/>
-
-                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
-                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
-
+                <Area_Effect_Decal_Distance> 100 </Area_Effect_Decal_Distance>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -161,7 +160,7 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 
 			</Unit_Ability>
 
@@ -170,7 +169,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -178,25 +177,18 @@
 		
 	</UniqueUnit>
 
-	<UniqueUnit Name="Sundered_Heart_Death_Clone">
-		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
-		<Space_Model_Name>RV_AntilliesVette_D.alo</Space_Model_Name>
-		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>0.5</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Max_Speed>0.25</Max_Speed>
-		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
-		<Max_Thrust>0.05</Max_Thrust>
-		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-
-	</UniqueUnit>
-
-	<UniqueUnit Name="Sundered_Heart_Cinematic_Clone">
-		<Variant_Of_Existing_Type>Sundered_Heart</Variant_Of_Existing_Type>
-	</UniqueUnit>
+	<Marker Name="Sato_Marker">
+		<Text_ID></Text_ID>
+		<Is_Marker>Yes</Is_Marker>
+		<Lua_Script>ObjectScript_Sato_Reinforces</Lua_Script> 
+		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
+		<Space_Model_Name>w_flag_marker_Green.alo</Space_Model_Name>
+		<Land_Model_Name>w_flag_marker_Green.alo</Land_Model_Name>
+		<Behavior>MARKER, HINT</Behavior>
+		<Land_FOW_Reveal_Range>600.0</Land_FOW_Reveal_Range>
+		<Is_Discardable>false</Is_Discardable>  
+		<Affiliation>Rebel</Affiliation>
+	</Marker>
 
 	
-</Raymus_Antilles>
-
+</Jun_Sato>

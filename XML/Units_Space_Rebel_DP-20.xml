@@ -50,9 +50,9 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures/>
 		<Required_Planets/>
-		<Shield_Points>416</Shield_Points>
-		<Tactical_Health>176</Tactical_Health>
-		<Shield_Refresh_Rate>41.6</Shield_Refresh_Rate>
+		<Shield_Points>1800</Shield_Points>
+		<Tactical_Health>750</Tactical_Health>
+		<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
 		<Energy_Capacity>1800</Energy_Capacity>
 		<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
 		<Damage>25</Damage>

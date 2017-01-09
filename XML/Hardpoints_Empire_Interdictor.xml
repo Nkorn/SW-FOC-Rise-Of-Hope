@@ -587,7 +587,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -642,7 +642,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -697,7 +697,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -752,7 +752,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -807,7 +807,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -862,7 +862,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -917,7 +917,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -972,7 +972,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 
 
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Green</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
 
 
 				 <!-- Reload Rate -->
@@ -1225,4 +1225,5 @@
 
 
 </HardPoints_Interdictor>
+
 

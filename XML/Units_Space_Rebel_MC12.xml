@@ -3,7 +3,7 @@
 
 	<SpaceUnit Name="MC12_Corvette">
 		<Text_ID>TEXT_UNIT_MC12_CORVETTE</Text_ID>
-		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser TIE_Bomber Pirate_Fighter</Encyclopedia_Good_Against>
+		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser TIE_Bomber Pirate_Fighter_PC</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Interceptor4_Frigate </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>MC_12_corvette.ALO</Space_Model_Name>
@@ -49,10 +49,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures/>
-		<Required_Planets>MonCalimari</Required_Planets>
-		<Shield_Points>860</Shield_Points>
-		<Tactical_Health>680</Tactical_Health>
-		<Shield_Refresh_Rate>86</Shield_Refresh_Rate>
+		<Required_Planets>MonCalamari</Required_Planets>
+		<Shield_Points>2150</Shield_Points>
+		<Tactical_Health>1650</Tactical_Health>
+		<Shield_Refresh_Rate>115</Shield_Refresh_Rate>
 		<Energy_Capacity>1800</Energy_Capacity>
 		<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
 		<Damage>25</Damage>
@@ -65,10 +65,10 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Transport_Capacity>6</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1350</Build_Cost_Credits>
+		<Build_Cost_Credits>1650</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1350</AI_Combat_Power>
-		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -81,22 +81,22 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
 		<HardPoints> 
-			HP_MC12_LCM_01,
-			HP_MC12_LCM_02,
-			HP_MC12_LLT_01,
-			HP_MC12_LLT_02,
-			HP_MC12_LLT_03,
-			HP_MC12_LLT_04,
-			HP_MC12_MC_MTL_01,
-			HP_MC12_MC_MTL_02,
-			HP_MC12_Fixed_Turbo_01,
-			HP_MC12_Fixed_Turbo_02,
-			HP_MC12_Bridge,
 			HP_MC12_Engines,
+			HP_MC12_Bridge,
+			HP_MC12_Fixed_Turbo_02,
+			HP_MC12_Fixed_Turbo_01,
+			HP_MC12_MC_MTL_02,
+			HP_MC12_MC_MTL_01,
+			HP_MC12_LLT_04,
+			HP_MC12_LLT_03,
+			HP_MC12_LLT_02,
+			HP_MC12_LLT_01,
+			HP_MC12_LCM_02,
+			HP_MC12_LCM_01
 		</HardPoints>
 
-		<Icon_Name>i_button_MC12.tga</Icon_Name>
-		<GUI_Model_Name>MC_12_corvette.ALO</GUI_Model_Name>
+		<Icon_Name>i_button_corellian_gunship.tga</Icon_Name>
+		<GUI_Model_Name>cr_DP20.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -194,4 +194,3 @@
 	</SpaceUnit>
 	
 </MC12_Corvette>
-

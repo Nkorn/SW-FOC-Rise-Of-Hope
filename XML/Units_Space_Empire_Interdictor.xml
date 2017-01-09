@@ -33,7 +33,7 @@
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Max_Thrust>0.8</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>2.0</Hyperspace_Speed> <!-- Class 2.0 -->
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
@@ -41,13 +41,13 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Damage>20</Damage>
-		<Shield_Points>800</Shield_Points>
-		<Tactical_Health>700</Tactical_Health>
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Shield_Points>3200</Shield_Points>
+		<Tactical_Health>1850</Tactical_Health>
+		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 		<Ship_Class>corvette</Ship_Class>
@@ -79,6 +79,7 @@
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
+	   
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		
@@ -188,7 +189,7 @@
 				<Disable_Movement>Yes</Disable_Movement>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
 			
 			<!-- Secondary ability -->
@@ -201,7 +202,7 @@
 				<Expiration_Seconds>0</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 				<Supports_Autofire>True</Supports_Autofire>
 		</Unit_Ability>
 			
@@ -214,7 +215,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -242,3 +243,4 @@
     </SpaceUnit>
 
 </Interdictor_Cruiser>
+

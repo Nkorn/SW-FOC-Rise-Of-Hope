@@ -996,7 +996,7 @@
 		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>3</Population_Value>
-	</SpaceUnit>-->
+	</SpaceUnit>
 
      <SpaceUnit Name="Interdictor_Death_Clone">
 		<Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
@@ -1015,7 +1015,7 @@
 		<Ship_Class>frigate</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-	</SpaceUnit>
+	</SpaceUnit>-->
 
 
 
@@ -1407,6 +1407,7 @@
 
 
 </SpaceUnitsFrigates>
+
 
 
 

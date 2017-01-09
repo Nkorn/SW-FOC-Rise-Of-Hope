@@ -96,6 +96,8 @@
 	<File>Units_Hero_Empire_Boba_Fett.xml</File>
 
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
+	<File>Units_Space_Empire_Acclamator_II.xml</File>
+	<File>Units_Space_Empire_CR-92.xml</File>
 	<File>Units_Space_Empire_Arquitens.xml</File>
 	<File>Units_Space_Empire_Gozanti.xml</File>
 	<File>Units_Space_Empire_Interdictor.xml</File>
@@ -123,7 +125,12 @@
 	<File>Units_Hero_Rebel_Han_and_Chewie.xml</File>
 	<File>Units_Hero_Rebel_Dash_Rendar.xml</File>
 	<File>Units_Hero_Rebel_Raymus_Antilles.xml</File>
+	<File>Units_Hero_Rebel_Ghost_Crew.xml</File>
+	<File>Units_Hero_Rebel_Ahsoka_Tano.xml</File>
+	<File>Units_Hero_Rebel_Jun_Sato.xml</File>
+	
 	<File>Units_Minor_Hero_Gold_Squadron.xml</File>
+	<File>Units_Minor_Hero_Rebel_One.xml</File>
 
 	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
@@ -199,6 +206,8 @@
 
 
 </Game_Object_Files>
+
+
 
 
 

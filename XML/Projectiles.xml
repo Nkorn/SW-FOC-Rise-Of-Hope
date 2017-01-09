@@ -281,7 +281,7 @@
 		<Projectile_Damage>0.0</Projectile_Damage>
 	</Projectile>-->
 
-	<Projectile Name="Proj_Ship_Ion_Cannon_Small">
+	<!--<Projectile Name="Proj_Ship_Ion_Cannon_Small">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Projectile_Custom_Render>2</Projectile_Custom_Render>
 		<Projectile_Width>2</Projectile_Width>
@@ -365,18 +365,18 @@
 		<AI_Combat_Power>200</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	</Projectile>
+	</Projectile>-->
 	
 	<!--<Projectile Name="Proj_Ship_Ion_Cannon_Dummy">
 		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon_Large</Variant_Of_Existing_Type>
 		<Projectile_Damage>0.0</Projectile_Damage>
 	</Projectile>-->
 
-	<Projectile Name="Proj_Ship_Ion_Cannon_SSD">
+	<!--<Projectile Name="Proj_Ship_Ion_Cannon_SSD">
 		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon_Large</Variant_Of_Existing_Type>
 		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>24.0</Projectile_Damage>
-	</Projectile>
+	</Projectile>-->
 
 
 	<Projectile Name="Proj_Ship_Proton_Torpedo">
@@ -747,6 +747,98 @@
 		<Variant_Of_Existing_Type>Proj_Ship_Heavy_Turbolaser_Green</Variant_Of_Existing_Type>
 		<Projectile_Damage>38.0</Projectile_Damage>
 		<Space_Model_Name>w_turbolaser_g4b.alo</Space_Model_Name>
+	</Projectile>
+	
+	<!-- Ion Projectiles -->
+	
+	<Projectile Name="Proj_Ship_Light_Ion_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_c.ALO</Space_Model_Name>
+		<Scale_Factor>0.04</Scale_Factor>
+                <Damage_Type>Damage_IonCannon</Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle/>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Small </Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Ion_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_turbolaser_c.ALO</Space_Model_Name>
+		<Scale_Factor>0.175</Scale_Factor>
+                <Damage_Type>Damage_IonCannon</Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle/>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Medium </Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>200</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Ion_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Dual">
+		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon</Variant_Of_Existing_Type>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Space_Model_Name>w_turbolaser_c2.alo</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Triple">
+		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon</Variant_Of_Existing_Type>
+		<Projectile_Damage>90.0</Projectile_Damage>
+		<Space_Model_Name>w_turbolaser_c3.alo</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Ion_Cannon_Quad">
+		<Variant_Of_Existing_Type>Proj_Ship_Ion_Cannon</Variant_Of_Existing_Type>
+		<Projectile_Damage>120.0</Projectile_Damage>
+		<Space_Model_Name>w_turbolaser_c4.alo</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Heavy_Ion_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>w_heavy_turbolaser_c.ALO</Space_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+                <Damage_Type>Damage_IonCannon</Damage_Type>
+		<Max_Speed>120.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>115.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle/>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle/>
+		<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large </Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>200</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Ion_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
 	<!-- MAY BE OBSOLETE -->
@@ -4524,6 +4616,7 @@
 
 
 </Projectiles>
+
 
 
 

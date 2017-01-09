@@ -76,7 +76,7 @@
             <Fire_Bone_B>IC_01</Fire_Bone_B>
             <Fire_Cone_Width>50.0</Fire_Cone_Width>
             <Fire_Cone_Height>50.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Light_Ion_Cannon</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>

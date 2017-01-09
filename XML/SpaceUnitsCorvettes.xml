@@ -965,7 +965,7 @@
 
 	</SpaceUnit>
 
-	<SpaceUnit Name="Marauder_Missile_Cruiser">
+	<!--<SpaceUnit Name="Marauder_Missile_Cruiser">
 		<Text_ID>TEXT_UNIT_MARAUDER_CRUISER</Text_ID>
 		<Encyclopedia_Good_Against> Empire_Star_Base_1 TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
@@ -979,7 +979,7 @@
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
         <Ranking_In_Category>7</Ranking_In_Category>
-		<Max_Speed>1.8</Max_Speed> <!-- Was 3.25 -->
+		<Max_Speed>1.8</Max_Speed>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
@@ -1097,17 +1097,12 @@
 
 		<Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>BARRAGE</Type>
 				
-				<!-- This parameter is no longer used. Barrage radius is determined by
-					 Projectile_Max_Flight_Distance of the specific projectile for this aility -->
-				<!-- <Effective_Radius>1000.0</Effective_Radius> -->
+				<Effective_Radius>1000.0</Effective_Radius>
 				
-				<!-- Modify this projectile for blast damage and range, range of barrage mode etc -->
 				<Projectile_Types_Override>Proj_Ship_Diamond_Boron_Missile_Barrage</Projectile_Types_Override>
 			
 				<Expiration_Seconds>10</Expiration_Seconds>
@@ -1117,10 +1112,8 @@
 				<SFXEvent_Target_Ability> Unit_Barrage_Corvette </SFXEvent_Target_Ability>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
 
-                 <!-- keep this the same as Targeting_Fire_Inaccuracy_Fixed_Radius_Override -->
                 <Area_Effect_Decal_Distance> 320.0 </Area_Effect_Decal_Distance>
                
-                <!-- keep this the same as Area_Effect_Decal_Distance -->
 				<Targeting_Fire_Inaccuracy_Fixed_Radius_Override>320.0</Targeting_Fire_Inaccuracy_Fixed_Radius_Override>
 				
 				<Target_Position_Z_Offset>-150</Target_Position_Z_Offset>
@@ -1134,16 +1127,14 @@
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1400</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>2</Population_Value>
-	</SpaceUnit>
+	</SpaceUnit>-->
 
 	<SpaceUnit Name="Marauder_Missile_Cruiser_Death_Clone">
 		<Text_ID>TEXT_UNIT_MARAUDER_CRUISER</Text_ID>
@@ -1514,6 +1505,7 @@
 
 
 </SpaceCorvettes>
+
 
 
 

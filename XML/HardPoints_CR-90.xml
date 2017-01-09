@@ -40,7 +40,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -97,7 +97,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -154,7 +154,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -211,7 +211,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -388,11 +388,11 @@
 
 	
 
-	<!-- Hard points for the Sundered Heart -->
+	<!-- Hard points for Hero CR90s -->
 	
 	
 
-       <HardPoint Name="HP_HEART_RAAL_04">
+       <HardPoint Name="HP_HERO_CR90_RAAL_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -429,7 +429,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -449,7 +449,7 @@
              <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
    </HardPoint>
    
-       <HardPoint Name="HP_HEART_RAAL_03">
+       <HardPoint Name="HP_HERO_CR90_RAAL_03">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -486,7 +486,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -506,7 +506,7 @@
              <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
    </HardPoint>
    
-       <HardPoint Name="HP_HEART_RAAL_02">
+       <HardPoint Name="HP_HERO_CR90_RAAL_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -543,7 +543,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -563,7 +563,7 @@
              <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
    </HardPoint>
 
-    <HardPoint Name="HP_HEART_RAAL_01">
+    <HardPoint Name="HP_HERO_CR90_RAAL_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -600,7 +600,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -620,7 +620,7 @@
              <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
    </HardPoint>
 
-       <HardPoint Name="HP_HEART_MTLT_02">
+       <HardPoint Name="HP_HERO_CR90_MTLT_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -681,7 +681,7 @@
    </HardPoint>
 
 
-    <HardPoint Name="HP_HEART_MTLT_01">
+    <HardPoint Name="HP_HERO_CR90_MTLT_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -741,7 +741,71 @@
              <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
    </HardPoint>
 
-	    <HardPoint Name="HP_HEART_Bridge">
+    <HardPoint Name="HP_HERO_CR90_FTL_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Attachment_Bone>MUZZLEA_00</Attachment_Bone>
+            <Collision_Mesh>MUZZLEA_00</Collision_Mesh>
+            <Damage_Decal>MUZZLEA_00</Damage_Decal>
+            <Damage_Particles>MUZZLEA_00</Damage_Particles>
+			
+            <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height> 
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type> 
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+             <Fire_Category_Restrictions> Missile, Laser</Fire_Category_Restrictions>
+             <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+    <HardPoint Name="HP_HERO_CR90_FTL_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Attachment_Bone>MUZZLEA_01</Attachment_Bone>
+            <Collision_Mesh>MUZZLEA_01</Collision_Mesh>
+            <Damage_Decal>MUZZLEA_01</Damage_Decal>
+            <Damage_Particles>MUZZLEA_01</Damage_Particles>
+			
+            <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height> 
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Red</Fire_Projectile_Type> 
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+             <Fire_Category_Restrictions> Missile, Laser</Fire_Category_Restrictions>
+             <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+             <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+	    <HardPoint Name="HP_HERO_CR90_Bridge">
 			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -758,7 +822,7 @@
             <Damage_Particles>BRDG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_HEART_Engines">
+    <HardPoint Name="HP_HERO_CR90_Engines">
 			<Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
