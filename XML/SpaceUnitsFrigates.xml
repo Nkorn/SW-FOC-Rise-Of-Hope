@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <SpaceUnitsFrigates>
 
-	<SpaceUnit Name="Nebulon_B_Frigate">
+	<!--<SpaceUnit Name="Nebulon_B_Frigate">
 		<Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Vengeance_Frigate </Encyclopedia_Vulnerable_To>
@@ -147,16 +147,14 @@
 
 		<Tactical_Bribe_Cost>1200</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				<Expiration_Seconds>15</Expiration_Seconds>
@@ -175,17 +173,15 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 		<Population_Value>3</Population_Value>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
-	</SpaceUnit>
+	</SpaceUnit>-->
    
      <SpaceUnit Name="Nebulon_Death_Clone">
 		<Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
@@ -1407,6 +1403,7 @@
 
 
 </SpaceUnitsFrigates>
+
 
 
 

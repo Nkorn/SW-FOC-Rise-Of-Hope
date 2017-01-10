@@ -816,8 +816,8 @@
 			<Damage_Type> Damage_Acclamator </Damage_Type>
 			
 
-			 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-             <Fire_Bone_B/>
+<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
              <Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
@@ -876,8 +876,8 @@
 			<Damage_Type> Damage_Acclamator </Damage_Type>
 			
 
-			 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-             <Fire_Bone_B/>
+<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
              <Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
@@ -936,8 +936,8 @@
 			<Damage_Type> Damage_Acclamator </Damage_Type>
 			
 
-			 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-             <Fire_Bone_B/>
+<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
              <Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
@@ -996,8 +996,8 @@
 			<Damage_Type> Damage_Acclamator </Damage_Type>
 			
 
-			 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-             <Fire_Bone_B/>
+<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
              <Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
@@ -1056,8 +1056,8 @@
 			<Damage_Type> Damage_Acclamator </Damage_Type>
 			
 
-			 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-             <Fire_Bone_B/>
+<Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
              <Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
@@ -1117,7 +1117,7 @@
 			
 
              <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-             <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+             <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
              <Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
@@ -1419,4 +1419,5 @@
     </HardPoint>
 
 </HardPoints>
+
 

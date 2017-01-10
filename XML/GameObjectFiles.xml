@@ -131,6 +131,7 @@
 	
 	<File>Units_Minor_Hero_Gold_Squadron.xml</File>
 	<File>Units_Minor_Hero_Rebel_One.xml</File>
+	<File>Units_Minor_Hero_Salvation.xml</File>
 
 	<File>Units_Land_Rebel_Gallofree_HTT.xml</File>
 
@@ -140,12 +141,14 @@
         <File>Units_Space_Rebel_A_Wing.xml</File>
         <File>Units_Space_Rebel_A_Wing_Phoenix_Squardon.xml</File>
         <File>Units_Space_Rebel_B_Wing.xml</File>
-	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
+	<File>Units_Space_Rebel_MC30c.xml</File>
 	<File>Units_Space_Rebel_YT_1300.xml</File>
 	<File>Units_Space_Rebel_YT_2400.xml</File>
 	<File>Units_Space_Rebel_CR-90.xml</File>
 	<File>Units_Space_Rebel_DP-20.xml</File>
 	<File>Units_Space_Rebel_MC12.xml</File>
+	<File>Units_Space_Rebel_Marauder.xml</File>
+	<File>Units_Space_Rebel_Nebulon_B_Frigate.xml</File>
 
 
 
@@ -206,6 +209,9 @@
 
 
 </Game_Object_Files>
+
+
+
 
 
 
