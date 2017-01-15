@@ -7,9 +7,9 @@
 		<Text_ID>TEXT_UNIT_LIBERATOR</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Bomber TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_jun_sato.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_JUNSATO.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Hero_Ability />
+		<Hero_Ability/>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>RV_CR90_Liberator.alo</Space_Model_Name>	
 		<Select_Box_Scale>250</Select_Box_Scale>
@@ -160,7 +160,7 @@
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 
 			</Unit_Ability>
 
@@ -169,7 +169,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -178,7 +178,7 @@
 	</UniqueUnit>
 
 	<Marker Name="Sato_Marker">
-		<Text_ID></Text_ID>
+		<Text_ID/>
 		<Is_Marker>Yes</Is_Marker>
 		<Lua_Script>ObjectScript_Sato_Reinforces</Lua_Script> 
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>

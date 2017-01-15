@@ -119,7 +119,7 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
-		<Icon_Name>i_button_interdictor_cruiser.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_INTERDICTOR.tga</Icon_Name>
 		<GUI_Model_Name>EV_Interdictor.alo</GUI_Model_Name>
 		<GUI_Distance>900</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -243,4 +243,5 @@
     </SpaceUnit>
 
 </Interdictor_Cruiser>
+
 

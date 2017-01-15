@@ -9,7 +9,7 @@
 		<Encyclopedia_Good_Against> Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing Rebel_Gunboat </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>IR_TIE_IT.ALO</Space_Model_Name>
-		<Icon_Name>i_button_tie_interdictor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_IT.tga</Icon_Name>
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -194,7 +194,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Vengeance_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing Rebel_Gunboat </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_tie_interdictor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_IT.tga</Icon_Name>
 		
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -320,7 +320,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERDICTOR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_TIE_INTERDICTOR_SQUADRON</Text_ID>
-		<Icon_Name>i_button_tie_interdictor.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_IT.tga</Icon_Name>
 		<GUI_Model_Name>IR_TIE_IT.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -433,3 +433,4 @@
 	
 	
 	</TIE_IT_Interdictor>
+

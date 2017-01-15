@@ -10,7 +10,7 @@
 		<Encyclopedia_Good_Against> Calamari_Cruiser Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>IR_TIE_D.ALO</Space_Model_Name>
-		<Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_D.tga</Icon_Name>
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -193,7 +193,7 @@
 		<Squadron_Offsets>0.0,-15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,45.0,-30.0</Squadron_Offsets>
-		<Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_D.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -245,7 +245,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
 		<Encyclopedia_Good_Against> Calamari_Cruiser Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_D.tga</Icon_Name>
 		
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
@@ -298,3 +298,4 @@
 
 
 </TIE_D_Defender>
+

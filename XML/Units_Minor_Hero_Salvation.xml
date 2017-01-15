@@ -11,7 +11,7 @@
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Vengeance_Frigate </Encyclopedia_Vulnerable_To>
 		<Is_Named_Hero>No</Is_Named_Hero>
         <Show_Hero_Head>Yes</Show_Hero_Head>
-		<Icon_Name>i_button_juno_eclipse.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_JUNO_ECLIPSE.tga</Icon_Name>
 		<Space_Model_Name>RV_Salvation.ALO</Space_Model_Name>
 		<Mass>0.995</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -180,4 +180,5 @@
 	
 	
 </Salvation>
+
 

@@ -17,7 +17,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
-		<Icon_Name>I_BUTTON_GOLD_SQUADRON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		
 		<Armor_Type> Armor_Hero_Transport </Armor_Type>
 		<Is_Named_Hero>No</Is_Named_Hero>
@@ -57,7 +57,7 @@
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Unit_Strength_Category>Bomber</Unit_Strength_Category>
 				<Applicable_Unit_Categories>Bomber</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Applicable_Unit_Types/>
 				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -95,7 +95,7 @@
 	<UniqueUnit Name="Gold_2_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_02</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -112,7 +112,7 @@
 	<UniqueUnit Name="Gold_3_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_03</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -129,7 +129,7 @@
 	<UniqueUnit Name="Gold_4_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_04</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -146,7 +146,7 @@
 	<UniqueUnit Name="Gold_5_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_05</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -163,7 +163,7 @@
 	<UniqueUnit Name="Gold_6_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_06</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -180,7 +180,7 @@
 	<UniqueUnit Name="Gold_7_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_07</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -197,7 +197,7 @@
 	<UniqueUnit Name="Gold_8_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_08</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -214,7 +214,7 @@
 	<UniqueUnit Name="Gold_9_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_09</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -231,7 +231,7 @@
 	<UniqueUnit Name="Gold_10_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_10</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -248,7 +248,7 @@
 	<UniqueUnit Name="Gold_11_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_11</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -265,7 +265,7 @@
 	<UniqueUnit Name="Gold_12_YWing">
 		<Variant_Of_Existing_Type>Dutch_YWing_Gold</Variant_Of_Existing_Type>
 		<Text_ID>TEXT_UNIT_GOLD_12</Text_ID>
-		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_YWING.tga</Icon_Name>
 		<SFXEvent_Assist_Move> </SFXEvent_Assist_Move>		
 		<SFXEvent_Assist_Attack> </SFXEvent_Assist_Attack>
 		<SFXEvent_Health_Low_Warning>  </SFXEvent_Health_Low_Warning>
@@ -286,7 +286,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_FIGHTER_SQUADRON </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Vengeance_Frigate </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Starviper_Fighter </Encyclopedia_Vulnerable_To>
-		<Icon_Name>I_BUTTON_GOLD_SQUADRON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_GOLD_SQUADRON.tga</Icon_Name>
 		
 		<Is_Dummy>Yes</Is_Dummy>
 		<Is_Named_Hero>No</Is_Named_Hero>
@@ -342,7 +342,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -377,7 +377,7 @@
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_GOLD_SQUADRON </Encyclopedia_Text>
 		<Show_Name>No</Show_Name>
-		<Icon_Name>I_BUTTON_GOLD_SQUADRON.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_GOLD_SQUADRON.tga</Icon_Name>
 		<Is_Named_Hero>No</Is_Named_Hero>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>No</Is_Escort>
@@ -431,7 +431,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>15000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>120</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -454,3 +454,4 @@
 	
 	
 </Gold_Squadron>
+

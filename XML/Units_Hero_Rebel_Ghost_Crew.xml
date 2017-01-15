@@ -10,7 +10,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_PHANTOM </Encyclopedia_Text>
 
         <Space_Model_Name>RV_Phantom.ALO</Space_Model_Name>
-		<Icon_Name>i_button_ezra.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_PHANTOM.tga</Icon_Name>
 
 		<Scale_Factor>1.00</Scale_Factor>
 		<Select_Box_Scale>40</Select_Box_Scale>
@@ -129,7 +129,7 @@
         <Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_GHOST</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
-        <Icon_Name>i_button_ghost_crew.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_RV_GHOST_CREW.tga</Icon_Name>
         <Is_Named_Hero>Yes</Is_Named_Hero>
 
         <Land_Model_Name>RV_Ghost_Land.ALO</Land_Model_Name>
@@ -255,7 +255,7 @@
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
         <Tactical_Build_Cost_Multiplayer>3800</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites />
+        <Tactical_Build_Prerequisites/>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>

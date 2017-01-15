@@ -93,7 +93,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_a_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_AWING.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius> <!-- 15 -->
@@ -216,7 +216,7 @@
         <Squadron_Offsets>-50.0,-100.0,-36.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,20.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-50.0,-18.0</Squadron_Offsets>
-		<Icon_Name>i_button_a_wing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_AWING.tga</Icon_Name>
 		<GUI_Model_Name>RV_awing.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

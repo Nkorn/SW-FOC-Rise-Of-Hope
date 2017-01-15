@@ -94,6 +94,7 @@
 
 	<File>Units_Hero_Empire_Thrawn.xml</File>
 	<File>Units_Hero_Empire_Boba_Fett.xml</File>
+	<File>Units_Hero_Empire_Zaarin.xml</File>
 
 	<File>Units_Space_Empire_TIE_Phantom.xml</File>
 	<File>Units_Space_Empire_Acclamator_II.xml</File>
@@ -101,6 +102,9 @@
 	<File>Units_Space_Empire_Arquitens.xml</File>
 	<File>Units_Space_Empire_Gozanti.xml</File>
 	<File>Units_Space_Empire_Interdictor.xml</File>
+	<File>Units_Space_Empire_Imperial_I_Star_Destroyer.xml</File>
+	<File>Units_Space_Empire_Tector_Star_Destroyer.xml</File>
+	<File>Units_Space_Empire_Ton_Falk.xml</File>
 	<File>Units_Space_Empire_Executor.xml</File>
 	<File>Units_Space_Empire_TIE_LN.xml</File>
 	<File>Units_Space_Empire_TIE_IN.xml</File>
@@ -209,6 +213,9 @@
 
 
 </Game_Object_Files>
+
+
+
 
 
 

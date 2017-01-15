@@ -15,7 +15,7 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_AHSOKA_TANO</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GREY_JEDI </Encyclopedia_Unit_Class>
 		<Land_Model_Name>RI_AHSOKA.ALO</Land_Model_Name>
-		<Icon_Name>i_button_ahsoka.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_AHSOKA.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>
@@ -140,7 +140,7 @@
 		<Score_Cost_Credits> 10000 </Score_Cost_Credits>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
 		<Death_Fade_Time>0.25</Death_Fade_Time>
-		<Lua_Script />
+		<Lua_Script/>
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
@@ -178,7 +178,7 @@
 				<Max_Projectile_Redirection_Angle_In_Degrees> 135.0 </Max_Projectile_Redirection_Angle_In_Degrees>
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
-                <Applicable_Unit_Categories />
+                <Applicable_Unit_Categories/>
                 <Applicable_Unit_Types>Darth_Vader_Expansion, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Destroyer_Droid, Underworld_Disruptor_Merc, TIE_Crawler, T2B_Tank, Dark_Trooper_PhaseII</Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
@@ -195,10 +195,10 @@
 				<!-- Note: As well as matching the below Unit_Category/Unit_Type filters, the -->
 				<!-- target object must also have the EARTHQUAKE_TARGET behavior attached. -->
 				<Applicable_Unit_Categories>Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<SFXEvent_Activate />
+				<Applicable_Unit_Types/>
+				<SFXEvent_Activate/>
 				<Target_Particle_Effect>Earthquake_Dust_Particles</Target_Particle_Effect>
-				<Target_Particle_Bone_Name />
+				<Target_Particle_Bone_Name/>
 			</Earthquake_Attack_Ability>
 
             <Absorb_Blaster_Ability Name="Ahsoka_Absorb_Blaster">
@@ -210,21 +210,21 @@
                 <Damage_Absorb_Percentage>0.2</Damage_Absorb_Percentage>
                 <Damage_Absorb_Amount>.8</Damage_Absorb_Amount>
                 <!-- We can absorb shots from the following units types (but no missiles or grenades): -->
-                <Applicable_Unit_Categories />
+                <Applicable_Unit_Categories/>
                 <Applicable_Unit_Types>Silri, Emperor_Palpatine, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Destroyer_Droid, Underworld_Disruptor_Merc, Dark_Trooper_PhaseII</Applicable_Unit_Types>
                 <SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
                 <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
                 <Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
-                <Owner_Light_Effect_Color2 />
+                <Owner_Light_Effect_Color2/>
                 <Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-                <Owner_Light_Effect_Pulse_Count />
+                <Owner_Light_Effect_Pulse_Count/>
             </Absorb_Blaster_Ability>
 
 			<Combat_Bonus_Ability Name="Ahsoka_Tano_Land_Combat_Bonus">
 				<Activation_Style>Ground_Automatic</Activation_Style>
 				<Unit_Strength_Category>Vehicle | Infantry | Air</Unit_Strength_Category>
 				<Applicable_Unit_Categories>Vehicle | Infantry | Air</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Applicable_Unit_Types/>
 				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
 				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
 				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
@@ -258,15 +258,15 @@
 				<!--				<Activation_Chance>0,0.0, 500,0.0</Activation_Chance>	< ! - - never activate -->
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Applicable_Unit_Types/>
 				<SFXEvent_Activate>Unit_Force_Whirlwind</SFXEvent_Activate>
 				<Owner_Particle_Effect>Force_Whirlwind_Particles</Owner_Particle_Effect>
-				<Owner_Particle_Bone_Name />
+				<Owner_Particle_Bone_Name/>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
 				<Owner_Light_Effect_Color>2.0, 2.0, 2.0</Owner_Light_Effect_Color>
-				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Color2/>
 				<Owner_Light_Effect_Duration>0.5</Owner_Light_Effect_Duration>
-				<Owner_Light_Effect_Pulse_Count />
+				<Owner_Light_Effect_Pulse_Count/>
 			</Force_Whirlwind_Ability>
 
 			<Galactic_Stealth_Ability Name="Ahsoka_Galactic_Stealth">
@@ -313,7 +313,7 @@
 		<Text_ID>TEXT_HERO_AHSOKA_TANO_TEAM</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_AHSOKA_TANO</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GREY_JEDI </Encyclopedia_Unit_Class>
-		<Icon_Name>i_button_ahsoka.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_AHSOKA.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
 		<Affiliation>Rebel</Affiliation>
@@ -323,8 +323,8 @@
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Fulcrum</Company_Transport_Unit>
 		<Company_Units>Ahsoka_Tano</Company_Units>
@@ -363,9 +363,9 @@
 		<Text_ID>TEXT_UNIT_FULCRUM</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Bomber TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_fulcrum.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_AHSOKA.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Hero_Ability />
+		<Hero_Ability/>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>RV_CR90_Fulcrum.alo</Space_Model_Name>	
 		<Select_Box_Scale>250</Select_Box_Scale>
@@ -500,7 +500,7 @@
 				<Recharge_Seconds>0</Recharge_Seconds>
 				<Expiration_Seconds>0</Expiration_Seconds>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Ahsoka</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 				<Supports_Autofire>True</Supports_Autofire>
 		</Unit_Ability>
 
@@ -513,7 +513,7 @@
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -521,7 +521,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -530,3 +530,5 @@
 	</UniqueUnit>
 
 </Ahsoka_Tano>
+
+

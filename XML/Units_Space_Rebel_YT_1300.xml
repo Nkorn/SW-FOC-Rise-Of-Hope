@@ -7,7 +7,7 @@
         <Encyclopedia_Vulnerable_To>Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
         <Encyclopedia_Text>TEXT_TOOLTIP_YT1300</Encyclopedia_Text>
         <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FREIGHTER</Encyclopedia_Unit_Class>
-        <Icon_Name>i_button_yt1300.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_RV_YT1300.tga</Icon_Name>
 
         <Space_Model_Name>RV_MilleniumFalcon.ALO</Space_Model_Name>
         <Scale_Factor>1.00</Scale_Factor>
@@ -138,7 +138,7 @@
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
         <Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites />
+        <Tactical_Build_Prerequisites/>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <!--<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
         <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>-->

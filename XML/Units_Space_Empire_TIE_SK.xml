@@ -110,7 +110,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_ST.tga</Icon_Name>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -190,7 +190,7 @@
 		<Squadron_Offsets>0.0,-15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,45.0,-30.0</Squadron_Offsets>
-		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_ST.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -235,3 +235,4 @@
 	
 	
 </TIE_SK_X1_Experimental_Air_Superiority_Fighter>
+

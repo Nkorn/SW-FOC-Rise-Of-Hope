@@ -91,7 +91,7 @@
 		HP_CR_90_MTLT_02
 		</HardPoints>
 
-		<Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_CR90.tga</Icon_Name>
 		<GUI_Model_Name>cr_90.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -187,6 +187,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>99</Tech_Level>
+		<Icon_Name>I_BUTTON_RV_CR90_FREEDOM.tga</Icon_Name>
 		<HardPoints> 
 		HP_HERO_CR90_Bridge,
 		HP_HERO_CR90_Engines,
@@ -213,3 +214,4 @@
 	</SpaceUnit>
 	
 </CR90_Corvette>
+

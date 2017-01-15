@@ -104,7 +104,7 @@
 		HP_Marauder_Engines
 		</HardPoints>
 
-		<Icon_Name>rv_missile_ship.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_MARAUDER.tga</Icon_Name>
 		<GUI_Model_Name>RV_Marauder.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -192,7 +192,7 @@
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>RV_Marauder.alo</Space_Model_Name>
-		<Icon_Name>i_button_marauder.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_MARAUDER.tga</Icon_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -232,8 +232,8 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>1450</Shield_Points>
@@ -356,7 +356,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  

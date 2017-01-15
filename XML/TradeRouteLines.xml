@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TradeRouteLines>
+	
+    <TradeRouteLine Name="Default">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>200, 200, 200, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>150, 150, 150, 255</Color_Zoomed_In>
+				<Width>3.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>		
+      </Settings_For_Faction>
+        
+
+		<Settings_For_Faction Name="Enemy">
+				<Color_Zoomed_Out>225, 0, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>128, 0 0, 255</Color_Zoomed_In>
+				<Width>3.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>		
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+				<Color_Zoomed_Out>0, 255, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>0, 128, 0, 255</Color_Zoomed_In>
+				<Width>3.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>		
+      </Settings_For_Faction>
+        
+
+		<Settings_For_Faction Name="Good">
+				<Color_Zoomed_Out>225, 0, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>128, 0 0, 255</Color_Zoomed_In>
+				<Width>3.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>		
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+				<Color_Zoomed_Out>0, 0, 255, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>0, 0, 255, 255</Color_Zoomed_In>
+				<Width>3.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>		
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+				<Color_Zoomed_Out>255, 255, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>128, 128, 0, 255</Color_Zoomed_In>
+				<Width>3.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>		
+      </Settings_For_Faction>
+        
+        
+    </TradeRouteLine>
+    
+    <TradeRouteLine Name="Corellian_Run">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>144, 191, 25, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>144, 191, 25, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+			<Color_Zoomed_Out>144, 191, 25, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>144, 191, 25, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+				<Color_Zoomed_Out>144, 191, 25, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>144, 191, 25, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+			<Color_Zoomed_Out>144, 191, 25, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>144, 191, 25, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+			<Color_Zoomed_Out>144, 191, 25, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>144, 191, 25, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+				<Color_Zoomed_Out>144, 191, 25, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>144, 191, 25, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+
+   <TradeRouteLine Name="Rimma_TradeRoute">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>13, 167, 221, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>13, 167, 221, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+<Color_Zoomed_Out>13, 167, 221, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>13, 167, 221, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+<Color_Zoomed_Out>13, 167, 221, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>13, 167, 221, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+<Color_Zoomed_Out>13, 167, 221, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>13, 167, 221, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+<Color_Zoomed_Out>13, 167, 221, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>13, 167, 221, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+<Color_Zoomed_Out>13, 167, 221, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>13, 167, 221, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+
+     <TradeRouteLine Name="Corellian_TradeSpire">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>230, 2, 123, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>230, 2, 123, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+<Color_Zoomed_Out>230, 2, 123, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>230, 2, 123, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+<Color_Zoomed_Out>230, 2, 123, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>230, 2, 123, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+<Color_Zoomed_Out>230, 2, 123, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>230, 2, 123, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+<Color_Zoomed_Out>230, 2, 123, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>230, 2, 123, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+<Color_Zoomed_Out>230, 2, 123, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>230, 2, 123, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+
+        <TradeRouteLine Name="Hydian_Way">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>238, 223, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>238, 223, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+<Color_Zoomed_Out>238, 223, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>238, 223, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+<Color_Zoomed_Out>238, 223, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>238, 223, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+<Color_Zoomed_Out>238, 223, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>238, 223, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+<Color_Zoomed_Out>238, 223, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>238, 223, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+<Color_Zoomed_Out>238, 223, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>238, 223, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+
+        <TradeRouteLine Name="Perlemenian_TradeRoute">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>124, 24, 120, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>124, 24, 120, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+<Color_Zoomed_Out>124, 24, 120, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>124, 24, 120, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+<Color_Zoomed_Out>124, 24, 120, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>124, 24, 120, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+<Color_Zoomed_Out>124, 24, 120, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>124, 24, 120, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+<Color_Zoomed_Out>124, 24, 120, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>124, 24, 120, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+<Color_Zoomed_Out>124, 24, 120, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>124, 24, 120, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+
+       <TradeRouteLine Name="Kessel_Run">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>33, 0, 127, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>33, 0, 127, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+<Color_Zoomed_Out>33, 0, 127, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>33, 0, 127, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+<Color_Zoomed_Out>33, 0, 127, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>33, 0, 127, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+<Color_Zoomed_Out>33, 0, 127, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>33, 0, 127, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+<Color_Zoomed_Out>33, 0, 127, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>33, 0, 127, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+<Color_Zoomed_Out>33, 0, 127, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>33, 0, 127, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+    
+    <TradeRouteLine Name="Santuary_Pipeline">
+
+		<Settings_For_Faction Name="Neutral">
+				<Color_Zoomed_Out>91, 127, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>91, 127, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Enemy">
+<Color_Zoomed_Out>91, 127, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>91, 127, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Ally">
+<Color_Zoomed_Out>91, 127, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>91, 127, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Good">
+<Color_Zoomed_Out>91, 127, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>91, 127, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Evil">
+<Color_Zoomed_Out>91, 127, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>91, 127, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+		<Settings_For_Faction Name="Corrupt">
+<Color_Zoomed_Out>91, 127, 0, 255</Color_Zoomed_Out>
+				<Color_Zoomed_In>91, 127, 0, 255</Color_Zoomed_In>
+				<Width>10.0</Width>
+				<Render_Mode>ADDITIVE</Render_Mode>
+      </Settings_For_Faction>
+
+
+    </TradeRouteLine>
+    
+
+</TradeRouteLines>
+

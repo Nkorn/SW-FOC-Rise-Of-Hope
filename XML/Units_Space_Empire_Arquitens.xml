@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <Arquitens_Data>
 
 	<!-- Only called Tartan Cruiser for coding purposes -->
@@ -48,7 +48,7 @@
         <Required_Timeline>0</Required_Timeline>
         <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
         <Required_Star_Base_Level>2</Required_Star_Base_Level>
-        <Required_Planets />
+        <Required_Planets/>
         <Ship_Class>corvette</Ship_Class>
         <Formation_Priority>3</Formation_Priority>
         <Is_Escort>yes</Is_Escort>
@@ -83,7 +83,7 @@
         </HardPoints>
 
         <CategoryMask> Corvette | AntiFighter | AntiBomber | AntiCorvette </CategoryMask>
-        <Icon_Name>i_button_light_cruiser.tga</Icon_Name>
+        <Icon_Name>I_BUTTON_IMP_ARQUITENS.tga</Icon_Name>
         <GUI_Model_Name>Imp_ArquitensCruiser.ALO</GUI_Model_Name>
         <GUI_Distance>1000</GUI_Distance>
         <GUI_Offset>0 0 0</GUI_Offset>
@@ -176,7 +176,7 @@
 				<Expiration_Seconds>7</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tartan</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
@@ -188,7 +188,7 @@
         <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
         <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
         <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
-        <Tactical_Build_Prerequisites />
+        <Tactical_Build_Prerequisites/>
         <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
         <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
         <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
@@ -216,7 +216,7 @@
     </SpaceUnit>
 
 	<Marker Name="Arquitens_Marker">
-		<Text_ID></Text_ID>
+		<Text_ID/>
 		<Is_Marker>Yes</Is_Marker>
 		<Lua_Script>ObjectScript_Arquitens_Reinforces</Lua_Script> 
 		<Galactic_Model_Name>w_flag_marker_Green.alo</Galactic_Model_Name>
@@ -230,3 +230,4 @@
 
 
 </Arquitens_Data>
+

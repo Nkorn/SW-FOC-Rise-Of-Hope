@@ -5,7 +5,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BOBA_FETT</Text_ID>
 		<Land_Model_Name>EI_BobaFett.alo</Land_Model_Name>
-		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_BOBA_FETT.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
 		<LandBehavior> SELECTABLE, STUNNABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, GARRISON_UNIT </LandBehavior>
@@ -195,7 +195,7 @@
 				
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
+				<Applicable_Unit_Types/>
 				<SFXEvent_Activate>Unit_Flamethrower_Fire</SFXEvent_Activate>
 				<Flame_Emitter_Model_Name>p_flamethrower00</Flame_Emitter_Model_Name>
 			</Personal_Flame_Thrower_Ability>
@@ -207,7 +207,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_BOBA_FETT</Text_ID>
 		<Land_Model_Name>EI_BobaFett.alo</Land_Model_Name>
-		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_BOBA_FETT.tga</Icon_Name>
 
 		<GalacticBehavior> SELECTABLE  </GalacticBehavior>
 				
@@ -325,7 +325,7 @@
 	
 	<HeroCompany Name="Boba_Fett_Team">
 		<Text_ID>TEXT_HERO_BOBA_FETT_TEAM</Text_ID>
-		<Icon_Name>i_button_boba_fett.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_BOBA_FETT.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>80</Damage>
 		<Affiliation>Empire</Affiliation>
@@ -336,8 +336,8 @@
 		<Required_Timeline>4</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Slave_I</Company_Transport_Unit>
 		<Company_Units>Boba_Fett</Company_Units>
@@ -393,7 +393,7 @@
 
 		<Tactical_Build_Cost_Multiplayer>1450</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
@@ -409,7 +409,7 @@
 		
 		<Tactical_Build_Cost_Multiplayer>1700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
@@ -425,7 +425,7 @@
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat Crusader_Gunship </Encyclopedia_Vulnerable_To>
 		<Land_Model_Name> EV_SLAVE1.ALO </Land_Model_Name>
 		<Space_Model_Name> Imp_Slave1.ALO </Space_Model_Name>
-		<Icon_Name>i_button_slave1.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_SLAVE1.tga</Icon_Name>
 		<Mass>0.995</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Select_Box_Scale>80</Select_Box_Scale>
@@ -524,7 +524,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
 		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
@@ -586,3 +586,4 @@
 
 	
 </Boba_Fett>
+

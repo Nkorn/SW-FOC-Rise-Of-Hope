@@ -7,7 +7,7 @@
 		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Bomber TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_captain_antillies.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_CAPTAIN_ANTILLES.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Hero_Ability/>
 		<GUI_Row> 1 </GUI_Row>
@@ -199,4 +199,5 @@
 
 	
 </Raymus_Antilles>
+
 

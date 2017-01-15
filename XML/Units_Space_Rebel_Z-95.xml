@@ -92,7 +92,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_Z95.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -175,7 +175,7 @@
         <Squadron_Offsets>-50.0,-100.0,-65.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,16.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-50.0,-27.0</Squadron_Offsets>
-		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_Z95.tga</Icon_Name>
 		<GUI_Model_Name>ga_z95.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

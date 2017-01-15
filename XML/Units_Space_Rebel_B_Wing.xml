@@ -12,7 +12,7 @@
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>ga_Bwing.alo</Space_Model_Name>
-		<Icon_Name>i_button_RV_BWing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_BWING.tga</Icon_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -171,7 +171,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_RV_BWing.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_BWING.tga</Icon_Name>
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -258,3 +258,4 @@
 	
 
 </A_SF-01_B-Wing_Starfighter>
+

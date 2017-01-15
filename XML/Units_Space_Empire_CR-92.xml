@@ -94,7 +94,7 @@
 		HP_CR_92_PTL
 		</HardPoints>
 
-		<Icon_Name>i_button_assassin_corvette.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_CR92.tga</Icon_Name>
 		<GUI_Model_Name>Imp_CR92Corvette.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -194,7 +194,7 @@
 
 	<SpaceUnit Name="Zaarin_Assassin_Corvette">
 		<Variant_Of_Existing_Type>Assassin_Corvette</Variant_Of_Existing_Type>		
-		<Required_Planets />
+		<Required_Planets/>
 		<Affiliation>Zaarin</Affiliation>	
 	</SpaceUnit>
 	

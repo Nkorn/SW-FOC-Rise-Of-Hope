@@ -302,7 +302,7 @@
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
-		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_TIE_LN.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -1256,4 +1256,5 @@
 
 
 </Squadrons>
+
 

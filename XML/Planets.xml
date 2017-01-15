@@ -285,9 +285,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALDERAAN</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_alderaan_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Alderaan.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name/>
-		<GUI_Model_Name>W_planet_alderaan_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Alderaan.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -1854,9 +1854,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Christophis">
 		<Zoomed_Terrain_Index>11</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CHRISTOPHSIS</Text_ID>
-		<Galactic_Model_Name>W_planet_christophsis_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Christophsis.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_christophsis_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Christophsis.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2261,9 +2261,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Coruscant">
 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
-		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Coruscant.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Coruscant.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3113,9 +3113,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Fondor">
 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_FONDOR</Text_ID>
-		<Galactic_Model_Name>W_planet_fondor_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Fondor.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_fondor_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Fondor.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3334,9 +3334,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Geonosis">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_GEONOSIS</Text_ID>
-		<Galactic_Model_Name>W_planet_geonosis_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Geonosis.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_geonosis_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Geonosis.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3792,7 +3792,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
-	</Planet>&gt;
+	</Planet>
 
 	<Planet Name="Ithor"> <!-- EXPANSION PLANET -->
 		<Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
@@ -4213,13 +4213,13 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Kessel">
 		<Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_KESSEL</Text_ID>
-		<Galactic_Model_Name>W_planet_Kessel_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Kessel.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Kessel_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Kessel.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>0.1</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18.63 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4846,9 +4846,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUSTAFAR</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>w_planet_volcanic01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Mustafar.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Mustafar.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -4910,9 +4910,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUUNILINST</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_munnilinst_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Muunilinst.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_munnilinst_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Muunilinst.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -5168,9 +5168,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="NalHutta">
 		<Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
-		<Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_NalHutta.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Nalhutta01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_NalHutta.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5603,9 +5603,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Ralltiir">
  		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RALLTIIR</Text_ID>
-		<Galactic_Model_Name>W_planet_Mannan.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Ralltiir.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Mannan.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Ralltiir.alo</GUI_Model_Name>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -5660,9 +5660,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Rattatak">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RATTATAK</Text_ID>
-		<Galactic_Model_Name>W_planet_rattatak_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Rattatak.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_rattatak_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Rattatak.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -6221,9 +6221,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Ryloth">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
-		<Galactic_Model_Name>W_planet_ryloth_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Ryloth.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_ryloth_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Ryloth.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -6287,9 +6287,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SALEUCAMI</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_saleucami_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Saleucami.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_saleucami_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Saleucami.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -6407,9 +6407,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Scarif"> <!-- Shut down that shield gate! -->
  		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SCARIF</Text_ID>
-		<Galactic_Model_Name>W_planet_Scarif.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Scarif.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Scarif.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Scarif.alo</GUI_Model_Name>
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -6608,9 +6608,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Sullust">
 		<Zoomed_Terrain_Index>3</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_SULLUST</Text_ID>
-		<Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Sullust.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Volcanic01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Sullust.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -6747,9 +6747,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Taris">
 		<Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_TARIS</Text_ID>
-		<Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Taris.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Urban01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Taris.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -7343,9 +7343,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_UTAPAU</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_utapau_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_Utapau.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_Utapau.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -7911,5 +7911,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	</Planet>
 
 </Planets>
+
+
+
 
 

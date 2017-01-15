@@ -12,7 +12,7 @@
 
 		<Space_Model_Name>Imp_GozantiCruiser.ALO</Space_Model_Name>
 		<GUI_Model_Name>Imp_GozantiCruiser.ALO</GUI_Model_Name>
-		<Icon_Name>i_button_Gozanti.tga</Icon_Name>		
+		<Icon_Name>I_BUTTON_IMP_GOZANTI.tga</Icon_Name>
 
 		<HardPoints> 
 			Gozanti_Laser_Cannon_01, 
@@ -63,8 +63,8 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets />
+		<Required_Special_Structures/>
+		<Required_Planets/>
 		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>600</Shield_Points>
@@ -157,7 +157,7 @@
 				<Expiration_Seconds>7</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<SFXEvent_GUI_Unit_Ability_Deactivated/>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
@@ -168,7 +168,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1900</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
+		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  

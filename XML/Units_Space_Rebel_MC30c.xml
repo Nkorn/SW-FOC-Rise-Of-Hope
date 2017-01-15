@@ -108,7 +108,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCapital </CategoryMask>
-		<Icon_Name>i_button_mc30c.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_RV_MC30c.tga</Icon_Name>
 		<GUI_Model_Name>RV_MC30.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
