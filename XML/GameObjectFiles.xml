@@ -102,9 +102,12 @@
 	<File>Units_Space_Empire_Arquitens.xml</File>
 	<File>Units_Space_Empire_Gozanti.xml</File>
 	<File>Units_Space_Empire_Interdictor.xml</File>
+	<File>Units_Space_Empire_Vindicator.xml</File>
 	<File>Units_Space_Empire_Imperial_I_Star_Destroyer.xml</File>
 	<File>Units_Space_Empire_Tector_Star_Destroyer.xml</File>
 	<File>Units_Space_Empire_Ton_Falk.xml</File>
+	<File>Units_Space_Empire_Carrack.xml</File>
+	<File>Units_Space_Empire_IPV.xml</File>
 	<File>Units_Space_Empire_Executor.xml</File>
 	<File>Units_Space_Empire_TIE_LN.xml</File>
 	<File>Units_Space_Empire_TIE_IN.xml</File>
@@ -146,6 +149,7 @@
         <File>Units_Space_Rebel_A_Wing_Phoenix_Squardon.xml</File>
         <File>Units_Space_Rebel_B_Wing.xml</File>
 	<File>Units_Space_Rebel_MC30c.xml</File>
+	<File>Units_Space_Rebel_Quasar.xml</File>
 	<File>Units_Space_Rebel_YT_1300.xml</File>
 	<File>Units_Space_Rebel_YT_2400.xml</File>
 	<File>Units_Space_Rebel_CR-90.xml</File>
@@ -153,6 +157,7 @@
 	<File>Units_Space_Rebel_MC12.xml</File>
 	<File>Units_Space_Rebel_Marauder.xml</File>
 	<File>Units_Space_Rebel_Nebulon_B_Frigate.xml</File>
+	<File>Units_Space_Rebel_Nebulon_B2_Frigate.xml</File>
 
 
 
@@ -213,6 +218,8 @@
 
 
 </Game_Object_Files>
+
+
 
 
 

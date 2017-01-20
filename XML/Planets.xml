@@ -1184,9 +1184,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	<Planet Name="Bannistar_Station">
 		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BANNISTAR_STATION</Text_ID>
-		<Galactic_Model_Name>w_black_hole_small.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_Planet_BannistarStation.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>w_black_hole_small.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_Planet_BannistarStation.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -7911,6 +7911,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	</Planet>
 
 </Planets>
+
 
 
 

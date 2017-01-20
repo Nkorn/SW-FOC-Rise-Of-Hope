@@ -52,7 +52,7 @@
         <Required_Planets>Bilbringi, Fondor, Kuat, Raxus_Prime, Yaga_Minor</Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>23265</Shield_Points> <!-- Maybe we should switch back to the original B-Wings to deal with this guy. -->
+		<Shield_Points>17500</Shield_Points>
 		<Tactical_Health>8600</Tactical_Health>
 		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>

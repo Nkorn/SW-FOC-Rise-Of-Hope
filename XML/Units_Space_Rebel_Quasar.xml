@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<Quasar_Data>
+
+
+	<SpaceUnit Name="Quasar_Base">
+		<Text_ID>TEXT_UNIT_QUASAR_CARRIER</Text_ID>
+		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Vengeance_Frigate </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Text> TEXT_TOOLTIP_QUASAR_CARRIER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CARRIER </Encyclopedia_Unit_Class>
+		<Icon_Name>I_BUTTON_RV_QUASAR.tga</Icon_Name>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>RV_QuasarFire.ALO</Space_Model_Name>
+		<Select_Box_Scale>370</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>2.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-40.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<OverrideAcceleration> .05 </OverrideAcceleration>
+		<OverrideDeceleration> .05 </OverrideDeceleration>
+		
+		<Max_Thrust>1.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Maintenance_Cost>0.2</Maintenance_Cost>
+
+		<Armor_Type> Armor_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Damage>40</Damage>
+		<Autoresolve_Health>4500</Autoresolve_Health>
+		<Shield_Points>3650</Shield_Points>
+		<Tactical_Health>1850</Tactical_Health>
+		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Affiliation/>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
+		<Tech_Level>99</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Planets/>
+		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<AI_Combat_Power>2500</AI_Combat_Power>
+		<Size_Value>8</Size_Value>		
+		
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		
+		
+		
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
+		<Death_Clone>Damage_Normal</Death_Clone>
+
+		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>
+		HP_Quasar_LLT_02,
+		HP_Quasar_LLT_01,
+		HP_Quasar_FTAAB_02,
+		HP_Quasar_FTAAB_01,
+		HP_Quasar_MTLT_06,
+		HP_Quasar_MTLT_05,
+		HP_Quasar_MTLT_04,
+		HP_Quasar_MTLT_03,
+		HP_Quasar_MTLT_02,
+		HP_Quasar_MTLT_01,
+		HP_Quasar_Bridge,
+		HP_Quasar_Hangar_04,
+		HP_Quasar_Hangar_03,
+		HP_Quasar_Hangar_02,
+		HP_Quasar_Hangar_01,
+		HP_Quasar_Engines
+		</HardPoints>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Rebel_Frigate</SFXEvent_Build_Complete> <!-- The only difference between this an "Unit_Blah_Nebulon" is any references to the Nebulon B Frigate has been removed -->
+
+		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Rebel_Frigate</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Frigate</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Rebel_Frigate</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Rebel_Frigate</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Frigate</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Rebel_Frigate</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Rebel_Frigate</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Rebel_Frigate </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Rebel_Frigate </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Rebel_Frigate </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Rebel_Frigate </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Rebel_Frigate </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Rebel_Frigate </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+		<Population_Value>3</Population_Value>
+		<Score_Cost_Credits> 2500</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2465</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Tactical_Bribe_Cost>700</Tactical_Bribe_Cost>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.1f</Mod_Multiplier><!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.1f</Mod_Multiplier><!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Rebel_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
+                <Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+		  
+			<Force_Healing_Ability Name="Carrier_Repair">
+            <Activation_Style>Space_Automatic</Activation_Style>
+            <Initially_Enabled>No</Initially_Enabled>
+            <Heal_Range>600.0</Heal_Range>
+            <Heal_Percent> 0.10 </Heal_Percent>
+            <Blob_Color>0, 255, 0, 255</Blob_Color>
+            <Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+            <Single_Target_Heal>Yes</Single_Target_Heal>
+            <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+            <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
+            <Applicable_Unit_Types/>
+            <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+            <Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+            <Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+            <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+            <Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+            <Target_Light_Effect_Color2/>
+            <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+            <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+            <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+            <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+            <Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+            <Owner_Light_Effect_Color2/>
+            <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+            <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+            <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+			</Force_Healing_Ability>
+		 
+		</Abilities>
+		
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<Ship_Class>frigate</Ship_Class>
+
+	</SpaceUnit>
+
+    <SpaceUnit Name="Imperial_Carrier">
+        <Variant_Of_Existing_Type>Quasar_Base</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_IMP_QUASAR.tga</Icon_Name>
+		<Space_Model_Name>Imp_QuasarCarrier.ALO</Space_Model_Name>
+		<Encyclopedia_Text> TEXT_TOOLTIP_QUASAR_CARRIER_IMPERIAL </Encyclopedia_Text>
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		
+		<HardPoints>
+		HP_Imp_Quasar_LLT_02,
+		HP_Imp_Quasar_LLT_01,
+		HP_Imp_Quasar_FTAAB_02,
+		HP_Imp_Quasar_FTAAB_01,
+		HP_Imp_Quasar_MTLT_06,
+		HP_Imp_Quasar_MTLT_05,
+		HP_Imp_Quasar_MTLT_04,
+		HP_Imp_Quasar_MTLT_03,
+		HP_Imp_Quasar_MTLT_02,
+		HP_Imp_Quasar_MTLT_01,
+		HP_Quasar_Bridge,
+		HP_Quasar_Hangar_04,
+		HP_Quasar_Hangar_03,
+		HP_Quasar_Hangar_02,
+		HP_Quasar_Hangar_01,
+		HP_Quasar_Engines
+		</HardPoints>
+		
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Acclamator</SFXEvent_Build_Complete>
+		
+		<SFXEvent_Select>Unit_Select_Acclamator</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Acclamator</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Acclamator</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Acclamator</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Acclamator</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Acclamator</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Acclamator</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Acclamator </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Acclamator </SFXEvent_Move_Into_Nebula>
+		
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Acclamator </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Acclamator </SFXEvent_Attack_Hardpoint>
+		
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Acclamator </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+    </SpaceUnit>
+
+    <SpaceUnit Name="Quasar_Bulk_Cruiser">
+        <Variant_Of_Existing_Type>Quasar_Base</Variant_Of_Existing_Type>
+		<Icon_Name>I_BUTTON_RV_QUASAR.tga</Icon_Name>
+		<Space_Model_Name>RV_QuasarCarrier.ALO</Space_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>2</Tech_Level>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds>
+
+    </SpaceUnit>
+	
+</Quasar_Data>
+
+
