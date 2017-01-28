@@ -79,7 +79,9 @@
 			Arquitens_QTL_01,
 			Arquitens_QTL_02,
 			Arquitens_QTL_03,
-			Arquitens_QTL_04
+			Arquitens_QTL_04,
+			HP_Arquitens_Bridge,
+                        HP_Arquitens_Engines
         </HardPoints>
 
         <CategoryMask> Corvette | AntiFighter | AntiBomber | AntiCorvette </CategoryMask>
@@ -230,4 +232,5 @@
 
 
 </Arquitens_Data>
+
 

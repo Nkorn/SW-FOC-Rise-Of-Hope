@@ -5,7 +5,7 @@
     <HardPoint Name="Arquitens_QTL_01">
    <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
+            <Is_Destroyable>Yes</Is_Destroyable>
 			<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 
 			<Health>150.0</Health>
@@ -16,8 +16,8 @@
             <Model_To_Attach>ARQ_QTL_01.ALO</Model_To_Attach>
             <Attachment_Bone>ARQ_QTL_01</Attachment_Bone>
             <Collision_Mesh>ARQ_QTL_01</Collision_Mesh>
-            <Damage_Decal/>
-            <Damage_Particles/>
+            <Damage_Decal>ARQ_QTL_01_EMITDAMAGE</Damage_Decal>
+            <Damage_Particles>ARQ_QTL_01_EMITDAMAGE</Damage_Particles>
 
 
 			<Damage_Type> Damage_Acclamator </Damage_Type>
@@ -66,7 +66,7 @@
     <HardPoint Name="Arquitens_QTL_02">
     <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
+            <Is_Destroyable>Yes</Is_Destroyable>
 			<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 
 			<Health>150.0</Health>
@@ -77,8 +77,8 @@
             <Model_To_Attach>ARQ_QTL_02.ALO</Model_To_Attach>
             <Attachment_Bone>ARQ_QTL_02</Attachment_Bone>
             <Collision_Mesh>ARQ_QTL_02</Collision_Mesh>
-            <Damage_Decal/>
-            <Damage_Particles/>
+            <Damage_Decal>ARQ_QTL_02_EMITDAMAGE</Damage_Decal>
+            <Damage_Particles>ARQ_QTL_02_EMITDAMAGE</Damage_Particles>
 
 
 			<Damage_Type> Damage_Acclamator </Damage_Type>
@@ -127,7 +127,7 @@
     <HardPoint Name="Arquitens_QTL_03">
     <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
+            <Is_Destroyable>Yes</Is_Destroyable>
 			<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 
 			<Health>150.0</Health>
@@ -138,8 +138,8 @@
             <Model_To_Attach>ARQ_QTL_03.ALO</Model_To_Attach>
             <Attachment_Bone>ARQ_QTL_03</Attachment_Bone>
             <Collision_Mesh>ARQ_QTL_03</Collision_Mesh>
-            <Damage_Decal/>
-            <Damage_Particles/>
+            <Damage_Decal>ARQ_QTL_03_EMITDAMAGE</Damage_Decal>
+            <Damage_Particles>ARQ_QTL_03_EMITDAMAGE</Damage_Particles>
 
 
 			<Damage_Type> Damage_Acclamator </Damage_Type>
@@ -188,7 +188,7 @@
     <HardPoint Name="Arquitens_QTL_04">
     <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
+            <Is_Destroyable>Yes</Is_Destroyable>
 			<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 
 			<Health>150.0</Health>
@@ -199,8 +199,8 @@
             <Model_To_Attach>ARQ_QTL_04.ALO</Model_To_Attach>
             <Attachment_Bone>ARQ_QTL_04</Attachment_Bone>
             <Collision_Mesh>ARQ_QTL_04</Collision_Mesh>
-            <Damage_Decal/>
-            <Damage_Particles/>
+            <Damage_Decal>ARQ_QTL_04_EMITDAMAGE</Damage_Decal>
+            <Damage_Particles>ARQ_QTL_04_EMITDAMAGE</Damage_Particles>
 
 
 			<Damage_Type> Damage_Acclamator </Damage_Type>
@@ -244,9 +244,44 @@
              <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
              <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
    </HardPoint>
+   
+   <HardPoint Name="HP_Arquitens_Bridge">
+			<Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_BRIDGE_HARDPOINT</Tooltip_Text>
+            <Health>130.0</Health>
+
+			<Death_Explosion_Particles> Small_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+
+            <Attachment_Bone>BRDG</Attachment_Bone>
+            <Collision_Mesh>BRDG</Collision_Mesh>
+            <Damage_Decal>BRDG_EMITDAMAGE</Damage_Decal>
+            <Damage_Particles>BRDG_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_Arquitens_Engines">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>130.0</Health>
+
+				<Death_Explosion_Particles> Small_Explosion_Space </Death_Explosion_Particles>
+				<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>ENG</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>ENG</Collision_Mesh>
+            <Damage_Decal>ENG_EMITDAMAGE</Damage_Decal>
+            <Damage_Particles>ENG_EMITDAMAGE</Damage_Particles>
+            <Engine_Particles>ENG</Engine_Particles>
+    </HardPoint>
 
 
 </HardPoints_Arquitens>
+
 
 
 

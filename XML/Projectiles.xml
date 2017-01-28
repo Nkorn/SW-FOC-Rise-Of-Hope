@@ -598,6 +598,12 @@
 		<Space_Model_Name>w_turbolaser_g4.alo</Space_Model_Name>
 	</Projectile>
 	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple">
+		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Space_Model_Name>w_turbolaser_g8.alo</Space_Model_Name>
+	</Projectile>
+	
 	<!--<Projectile Name="Proj_Ship_Turbolaser_Green_Dummy">
 		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
 		<Projectile_Damage>0.0</Projectile_Damage>
@@ -4628,6 +4634,7 @@
 
 
 </Projectiles>
+
 
 
 

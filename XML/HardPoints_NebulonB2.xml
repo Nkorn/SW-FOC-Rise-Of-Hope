@@ -864,7 +864,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -921,7 +921,7 @@
              <Barrel_Bone_Name> TURRET_ELEVATION </Barrel_Bone_Name>
 			
 			
-            <Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
 			
 			
 				 <!-- Reload Rate -->
@@ -947,13 +947,13 @@
             <Is_Destroyable>No</Is_Destroyable>
 		<Damage_Type> Damage_Con_Missile </Damage_Type>
 
-            <Attachment_Bone>LCM_01</Attachment_Bone>
-            <Collision_Mesh>LCM_01</Collision_Mesh>
-            <Damage_Decal/>
-            <Damage_Particles/>
+            <Attachment_Bone>COLISSION</Attachment_Bone>
+            <Collision_Mesh>COLISSION</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles />
 
-            <Fire_Bone_A>LCM_01</Fire_Bone_A>
-            <Fire_Bone_B>LCM_01</Fire_Bone_B>
+            <Fire_Bone_A>COLISSION</Fire_Bone_A>
+            <Fire_Bone_B>COLISSION</Fire_Bone_B>
             <Fire_Cone_Width>130.0</Fire_Cone_Width>
             <Fire_Cone_Height>130.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
@@ -1037,4 +1037,3 @@
     </HardPoint>
 	
 </HardPoints>
-

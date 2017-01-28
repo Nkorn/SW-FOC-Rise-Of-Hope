@@ -38,7 +38,16 @@
 	<File>HardPoints_Carrack.xml</File>
 	<File>HardPoints_NebulonB2.xml</File>
 	<File>HardPoints_IPV1.xml</File>
+	<File>HardPoints_Brahatok.xml</File>
+	<File>HardPoints_Gladiator.xml</File>
+	<File>Hardpoints_MC40.xml</File>
+	<File>HardPoints_Neutron_Star.xml</File>
+	<File>Hardpoints_T-Wing.xml</File>
+	<File>Hardpoints_Victory_Star_Destroyers.xml</File>
+	<File>HardPoints_X4.xml</File>
 </Hard_Point_Files>
+
+
 
 
 

@@ -101,7 +101,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_abregado_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -164,7 +164,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_aeten2_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -228,7 +228,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -289,7 +289,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name/>
 		<GUI_Model_Name>W_Planet_Alderaan.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -360,7 +360,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name/>
 		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.3</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-6, -6, 0.1</Name_Adjust>
@@ -425,7 +425,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_alzoc_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -487,7 +487,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_anaxes_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>2.05</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 22 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -559,7 +559,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Gas01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>2.3</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 24.2 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -622,7 +622,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -685,7 +685,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -754,7 +754,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_atzerri_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -818,7 +818,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -892,7 +892,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -977,7 +977,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Gas01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>2.3</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 24.2 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1049,7 +1049,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_bestine_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1122,7 +1122,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18.63 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1190,7 +1190,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1257,7 +1257,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_bonadan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1318,7 +1318,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1382,7 +1382,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -1439,7 +1439,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1529,7 +1529,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_boz_pity_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1589,7 +1589,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_abregado_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1650,7 +1650,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-6, -6, 0.1</Name_Adjust>
@@ -1717,7 +1717,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1796,7 +1796,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 17 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1860,7 +1860,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 17 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1924,7 +1924,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -1989,7 +1989,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_bonadan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2062,7 +2062,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -2119,7 +2119,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2194,7 +2194,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2267,7 +2267,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -2330,7 +2330,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -2388,7 +2388,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -2460,7 +2460,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_dathomir_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2526,7 +2526,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -2587,7 +2587,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -2650,7 +2650,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.3</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 15.35 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10, -12, 0.1</Name_Adjust>
@@ -2718,7 +2718,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -2781,7 +2781,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -2845,7 +2845,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_bonadan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -2906,7 +2906,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-6, -6, 0.1</Name_Adjust>
@@ -2974,7 +2974,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_felucia_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3046,7 +3046,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -3119,7 +3119,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -3192,7 +3192,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10, -12, 0.1</Name_Adjust>
@@ -3266,7 +3266,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_wayland_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3340,7 +3340,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3414,7 +3414,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -3477,7 +3477,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_honoghr_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3548,7 +3548,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -3612,7 +3612,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_hypori_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3684,7 +3684,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -3744,7 +3744,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_hypori_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3803,7 +3803,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_ithor_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -3867,7 +3867,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -3935,7 +3935,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -4000,7 +4000,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -4071,7 +4071,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4154,7 +4154,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4272,7 +4272,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 16.23 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4341,7 +4341,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4430,7 +4430,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4506,7 +4506,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -4582,7 +4582,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 16.23 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4643,7 +4643,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4702,7 +4702,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_dagobah_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4774,7 +4774,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4850,7 +4850,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_Planet_Mustafar.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4914,7 +4914,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_Planet_Muunilinst.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -4978,7 +4978,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -5040,7 +5040,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 15.35 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10, -12, 0.1</Name_Adjust>
@@ -5106,7 +5106,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5174,7 +5174,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5242,7 +5242,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -5303,7 +5303,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5362,7 +5362,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 17 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5425,7 +5425,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -5493,7 +5493,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -5553,7 +5553,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18.63 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5609,7 +5609,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5666,7 +5666,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5723,7 +5723,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 17 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5809,7 +5809,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10.0, -10.0, 0.1</Name_Adjust>
@@ -5882,7 +5882,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 17 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -5952,7 +5952,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6012,7 +6012,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.4</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6084,7 +6084,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -6152,7 +6152,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6227,7 +6227,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6291,7 +6291,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_Planet_Saleucami.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6353,7 +6353,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6413,7 +6413,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6479,7 +6479,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>w_planet_volcanic01.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6541,7 +6541,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -6614,7 +6614,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6690,7 +6690,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -6753,7 +6753,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -6820,7 +6820,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -6886,7 +6886,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -6949,7 +6949,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Galactic_Model_Name>w_black_hole_small.alo</Galactic_Model_Name>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
@@ -7024,7 +7024,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7083,7 +7083,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -7146,7 +7146,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7206,7 +7206,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.1</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7286,7 +7286,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-18, -12, 0.1</Name_Adjust>
@@ -7347,7 +7347,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_Planet_Utapau.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7410,7 +7410,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -10, 0.1</Name_Adjust>
@@ -7467,7 +7467,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7523,7 +7523,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7583,7 +7583,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.6</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 15.35 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-10, -12, 0.1</Name_Adjust>
@@ -7654,7 +7654,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_hypori_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7725,7 +7725,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.5</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 17 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7790,7 +7790,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_hypori_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7861,7 +7861,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
         <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
-		<Scale_Factor>1.8</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
 		<Show_Name>Yes</Show_Name>
 		<Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -7911,6 +7911,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 	</Planet>
 
 </Planets>
+
 
 
 

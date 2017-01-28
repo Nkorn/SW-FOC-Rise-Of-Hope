@@ -369,19 +369,12 @@
         <Spawned_Squadron_Delay_Seconds>6</Spawned_Squadron_Delay_Seconds> <!-- Squadron deployment time decreases as the Rebels get more practice at using the hangars -->
         <Reserve_Spawned_Units_Tech_4>X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
         <Reserve_Spawned_Units_Tech_4>A_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_4>
-
-        <Starting_Spawned_Units_Tech_5>X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
-        <Starting_Spawned_Units_Tech_5>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
-        <Starting_Spawned_Units_Tech_5>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_5>
-        <Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds> <!-- Squadron deployment time decreases as the Rebels get more practice at using the hangars -->
-        <Reserve_Spawned_Units_Tech_5>X-Wing_Squadron, 1</Reserve_Spawned_Units_Tech_5>
-        <Reserve_Spawned_Units_Tech_5>A_Wing_Squadron, 1</Reserve_Spawned_Units_Tech_5>
         
         <Population_Value>4</Population_Value>
 
     </SpaceUnit>
 
-    <SpaceUnit Name="Emancipator_SD"> <!-- Once named Accuser, the Emancipator was captured by the Rebel Alliance at the Battle of Endor -->
+    <SpaceUnit Name="Emancipator"> <!-- Once named Accuser, the Emancipator was captured by the Rebel Alliance at the Battle of Endor -->
         <Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
         <Text_ID>TEXT_UNIT_SD_EMANCIPATOR</Text_ID>
         <Encyclopedia_Text> TEXT_TOOLTIP_EMANCIPATOR </Encyclopedia_Text>
@@ -720,4 +713,3 @@
 
 
 </Imperator_Data>
-

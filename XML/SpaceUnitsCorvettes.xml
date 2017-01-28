@@ -549,7 +549,7 @@
 
 	</SpaceUnit>-->
 
-	<SpaceUnit Name="IPV1_System_Patrol_Craft">
+	<!--<SpaceUnit Name="IPV1_System_Patrol_Craft">
 		<Text_ID>TEXT_UNIT_IPV1_SYSTEM</Text_ID>
 		<Encyclopedia_Good_Against> X-wing Starviper_Fighter TIE_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Victory_Destroyer Nebulon_B_Frigate Vengeance_Frigate </Encyclopedia_Vulnerable_To>
@@ -558,7 +558,7 @@
 		<Mass>0.9995</Mass>
 		<Scale_Factor>.5</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Tech_Level>6</Tech_Level> <!-- Modded by Chris R. for MP-->
+		<Tech_Level>6</Tech_Level>
 		
         <Ranking_In_Category>7</Ranking_In_Category>
 		<Max_Speed>2.75</Max_Speed>
@@ -579,7 +579,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 
-		<Affiliation>Pirates, Empire, Rebel</Affiliation> <!-- Modded by Chris R. for MP-->
+		<Affiliation>Pirates, Empire, Rebel</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -671,9 +671,7 @@
 	
 		<Tactical_Bribe_Cost>500</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>POWER_TO_WEAPONS</Type>
 			
@@ -710,9 +708,9 @@
 		<Ship_Class>corvette</Ship_Class>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
-	</SpaceUnit>
+	</SpaceUnit>-->
 	
-	<SpaceUnit Name="Empire_Pirate_IPV">  <!--Multiplayer Only-->
+	<!--<SpaceUnit Name="Empire_Pirate_IPV">
 		<Variant_Of_Existing_Type>IPV1_System_Patrol_Craft</Variant_Of_Existing_Type>
 		
 		<Affiliation>Empire</Affiliation>
@@ -722,18 +720,16 @@
 		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 	
 	</SpaceUnit>
 	
-	<SpaceUnit Name="Rebel_Pirate_IPV"> <!--Multiplayer Only-->
+	<SpaceUnit Name="Rebel_Pirate_IPV">
 		<Variant_Of_Existing_Type>IPV1_System_Patrol_Craft</Variant_Of_Existing_Type>
 		
 		<Affiliation>Rebel</Affiliation>
@@ -742,18 +738,16 @@
 		<SFXEvent_Tactical_Build_Complete> RHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> RHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 	
 	</SpaceUnit>
 
-	<SpaceUnit Name="Underworld_Pirate_IPV"> <!--Multiplayer Only-->
+	<SpaceUnit Name="Underworld_Pirate_IPV">
 		<Variant_Of_Existing_Type>IPV1_System_Patrol_Craft</Variant_Of_Existing_Type>
 		
 		<Affiliation>Underworld</Affiliation>
@@ -762,16 +756,14 @@
 		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
 		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
 	
-	</SpaceUnit>
+	</SpaceUnit>-->
 
 
 
@@ -1505,6 +1497,7 @@
 
 
 </SpaceCorvettes>
+
 
 
 

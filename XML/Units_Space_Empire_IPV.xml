@@ -83,7 +83,7 @@
 
 		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Icon_Name>i_button_ipv.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_IMP_IPV.tga</Icon_Name>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
@@ -242,3 +242,4 @@
 	</SpaceUnit>
 	
 </IPV-1_System_Patrol_Craft>
+

@@ -54,7 +54,7 @@
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>17500</Shield_Points>
 		<Tactical_Health>8600</Tactical_Health>
-		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>550</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>850</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>
