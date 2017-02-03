@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3400</Autoresolve_Health>
 		<Shield_Points>8000</Shield_Points>
-		<Tactical_Health>3200</Tactical_Health>
+		<Tactical_Health>6100</Tactical_Health>
 		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
@@ -58,9 +58,9 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2650</Build_Cost_Credits>
+		<Build_Cost_Credits>4300</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2650</AI_Combat_Power>
+		<AI_Combat_Power>4650</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -81,27 +81,17 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
 		
 		<HardPoints>
-		HP_Vindicator_IFTTL_05,
-		HP_Vindicator_IFTTL_04,
-		HP_Vindicator_IFTTL_03,
-		HP_Vindicator_IFTTL_02,
-		HP_Vindicator_IFTTL_01,
+		HP_Vindicator_MTLT_11,
+		HP_Vindicator_MTLT_10,
+		HP_Vindicator_MTLT_09,
+		HP_Vindicator_MTLT_08,
+		HP_Vindicator_MTLT_07,
+		HP_Vindicator_MTLT_06,
+		HP_Vindicator_MTLT_05,
 		HP_Vindicator_MTLT_04,
 		HP_Vindicator_MTLT_03,
 		HP_Vindicator_MTLT_02,
 		HP_Vindicator_MTLT_01,
-		HP_Vindicator_XX9_08,
-		HP_Vindicator_XX9_07,
-		HP_Vindicator_XX9_06,
-		HP_Vindicator_XX9_05,
-		HP_Vindicator_XX9_04,
-		HP_Vindicator_XX9_03,
-		HP_Vindicator_XX9_02,
-		HP_Vindicator_XX9_01,
-		HP_Vindicator_NK7_04,
-		HP_Vindicator_NK7_03,
-		HP_Vindicator_NK7_02,
-		HP_Vindicator_NK7_01,
 		HP_Vindicator_IBT_08,
 		HP_Vindicator_IBT_07,
 		HP_Vindicator_IBT_06,
@@ -110,6 +100,10 @@
 		HP_Vindicator_IBT_03,
 		HP_Vindicator_IBT_02,
 		HP_Vindicator_IBT_01,
+		HP_Vindicator_TLT_04,
+		HP_Vindicator_TLT_03,
+		HP_Vindicator_TLT_02,
+		HP_Vindicator_TLT_01,
 		HP_Vindicator_MI_04,
 		HP_Vindicator_MI_03,
 		HP_Vindicator_MI_02,
@@ -122,7 +116,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
-		<Icon_Name>I_BUTTON_IMP_VINDICATOR.tga</Icon_Name>
+		<Icon_Name>i_button_vindicator.tga</Icon_Name>
 		<GUI_Model_Name>Imp_VindicatorCruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -216,7 +210,7 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>2</Population_Value>
+		<Population_Value>3</Population_Value>
 	</SpaceUnit>
 
 

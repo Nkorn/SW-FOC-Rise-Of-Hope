@@ -30,7 +30,7 @@
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Max_Lift>4</Max_Lift>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>4.0</Hyperspace_Speed> <!-- Class 1.0 -->
+		<Hyperspace_Speed>4.0</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Shield_Points>50</Shield_Points>
@@ -50,6 +50,7 @@
 		<Size_Value>8</Size_Value>
 		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, HUNT </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>4</Damage>
 
         <HardPoints>
 			HP_XWING_Laser_01, HP_XWING_PTL
@@ -92,7 +93,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>I_BUTTON_RV_XWING.tga</Icon_Name>
+		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -165,10 +166,10 @@
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
 		<Autoresolve_Health>300</Autoresolve_Health>
-		<Damage>25</Damage>
+		<Damage>48</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Cost_Credits>180</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>10</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -198,7 +199,7 @@
         <Squadron_Offsets>-50.0,-100.0,38.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,-21.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-50.0,-11.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_RV_XWING.tga</Icon_Name>
+		<Icon_Name>i_button_x_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

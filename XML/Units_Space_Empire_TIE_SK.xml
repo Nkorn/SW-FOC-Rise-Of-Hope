@@ -36,7 +36,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Shield_Points>25</Shield_Points>
 		<Tactical_Health>14</Tactical_Health>
-		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
@@ -51,15 +51,15 @@
 		<Build_Cost_Credits>30</Build_Cost_Credits>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Size_Value>8</Size_Value>
-		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, SHIELDED </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>3</Damage>
 		
 	    <Damage_Type>Damage_Fighter</Damage_Type>
 
-        <Hardpoints>HP_TIE_SK_Laser, HP_TIE_SK_Laser_02</Hardpoints>
+        <Hardpoints>HP_TIE_SK_Laser</Hardpoints>
 		
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green_Dual</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Dual_Small_Laser_Cannon_Green</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
@@ -110,7 +110,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>I_BUTTON_IMP_TIE_ST.tga</Icon_Name>
+		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -165,7 +165,7 @@
 		<Damage>25</Damage>
 		<Affiliation>Empire</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
@@ -190,7 +190,7 @@
 		<Squadron_Offsets>0.0,-15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,45.0,-30.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_IMP_TIE_ST.tga</Icon_Name>
+		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -235,4 +235,3 @@
 	
 	
 </TIE_SK_X1_Experimental_Air_Superiority_Fighter>
-

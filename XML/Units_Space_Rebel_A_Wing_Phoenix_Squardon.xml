@@ -28,7 +28,7 @@
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>4.0</Hyperspace_Speed> <!-- Class 1.0 -->
+		<Hyperspace_Speed>4.0</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Max_Lift>4</Max_Lift>
 		<Affiliation>Rebel</Affiliation>
@@ -93,7 +93,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>I_BUTTON_RV_AWING_PHOENIX.tga</Icon_Name>
+		<Icon_Name>i_button_phoenix_a_wing.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius> <!-- 15 -->
@@ -188,7 +188,7 @@
 		<Damage>35</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Cost_Credits>210</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -217,7 +217,7 @@
         <Squadron_Offsets>-50.0,-100.0,-39.0</Squadron_Offsets>
         <Squadron_Offsets> 50.0,-100.0,25.0</Squadron_Offsets>
         <Squadron_Offsets>0.0,-50.0,-19.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_RV_PHOENIX_SQUADRON.tga</Icon_Name>
+		<Icon_Name>i_button_phoenix_a_wing.tga</Icon_Name>
 		<GUI_Model_Name>ga_awing_phoenix.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -267,4 +267,3 @@
 
 	
 </RZ-1_A_Wing_Interceptor>
-

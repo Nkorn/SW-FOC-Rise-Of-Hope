@@ -4,7 +4,7 @@
 
 			<!-- Stats are subject to change -->
 
-	<SpaceUnit Name="Interdictor_Cruiser">
+	<SpaceUnit Name="Interdictor_Base">
 		<Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
 		<Encyclopedia_Good_Against> Marauder_Missile_Cruiser Interceptor4_Frigate</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Calamari_Cruiser Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>
@@ -37,16 +37,16 @@
 		<Maintenance_Cost>0.2</Maintenance_Cost>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
-		<Required_Special_Structures/>
-		<Required_Planets/>
+		<Required_Special_Structures />
+		<Required_Planets />
 		<Autoresolve_Health>800</Autoresolve_Health>
 		<Damage>20</Damage>
-		<Shield_Points>3200</Shield_Points>
-		<Tactical_Health>1850</Tactical_Health>
+		<Shield_Points>3600</Shield_Points>
+		<Tactical_Health>3050</Tactical_Health>
 		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
@@ -59,7 +59,7 @@
 		<Squadron_Capacity>5</Squadron_Capacity>
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Cost_Credits>5224</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>3000</AI_Combat_Power>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
@@ -78,48 +78,44 @@
 		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
-	   
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
-		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
-		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
 		<HardPoints>
-			Interdictor_IFTTL_01,
-			Interdictor_IFTTL_02,
-			Interdictor_IFTTL_03,
-			Interdictor_IFTTL_04,
-			Interdictor_IFTTL_05,
-			Interdictor_MTLT_01,
-			Interdictor_MTLT_02,
-			Interdictor_MTLT_03,
-			Interdictor_MTLT_04,
-			Interdictor_IBT_01,
-			Interdictor_IBT_02,
-			Interdictor_IBT_03,
-			Interdictor_IBT_04,
-			Interdictor_IBT_05,
-			Interdictor_IBT_06,
-			Interdictor_IBT_07,
-			Interdictor_IBT_08,
-			Interdictor_MI_01,
-			Interdictor_MI_02,
-			Interdictor_MI_03,
-			Interdictor_MI_04,
-			Interdictor_SG_01,
-			Interdictor_SG_02,
-			Interdictor_HNGR,
-			Interdictor_BRDG,
-			Interdictor_ENG,
-			Interdictor_GW,
+			HP_Interdictor_MTLT_11,
+			HP_Interdictor_MTLT_10,
+			HP_Interdictor_MTLT_09,
+			HP_Interdictor_MTLT_08,
+			HP_Interdictor_MTLT_07,
+			HP_Interdictor_MTLT_06,
+			HP_Interdictor_MTLT_05,
+			HP_Interdictor_MTLT_04
+			HP_Interdictor_MTLT_03,
+			HP_Interdictor_MTLT_02,
+			HP_Interdictor_MTLT_01,
+			HP_Interdictor_IBT_08,
+			HP_Interdictor_IBT_07,
+			HP_Interdictor_IBT_06,
+			HP_Interdictor_IBT_05,
+			HP_Interdictor_IBT_04,
+			HP_Interdictor_IBT_03,
+			HP_Interdictor_IBT_02,
+			HP_Interdictor_IBT_01,
+			HP_Interdictor_MI_04,
+			HP_Interdictor_MI_03,
+			HP_Interdictor_MI_02,
+			HP_Interdictor_MI_01,
+			HP_Interdictor_TLT_02,
+			HP_Interdictor_TLT_01,
+			HP_Interdictor_SG_02,
+			HP_Interdictor_SG_01,
+			HP_Interdictor_HNGR,
+			HP_Interdictor_BRDG,
+			HP_Interdictor_ENG,
+			HP_Interdictor_GW,
 		</HardPoints>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
-		<Icon_Name>I_BUTTON_IMP_INTERDICTOR.tga</Icon_Name>
+		<Icon_Name>i_button_interdictor_cruiser.tga</Icon_Name>
 		<GUI_Model_Name>EV_Interdictor.alo</GUI_Model_Name>
 		<GUI_Distance>900</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -189,7 +185,7 @@
 				<Disable_Movement>Yes</Disable_Movement>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 			
 			<!-- Secondary ability -->
@@ -202,7 +198,7 @@
 				<Expiration_Seconds>0</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 				<Supports_Autofire>True</Supports_Autofire>
 		</Unit_Ability>
 			
@@ -215,7 +211,57 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>3</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Interdictor_Cruiser">
+        <Variant_Of_Existing_Type>Interdictor_Base</Variant_Of_Existing_Type>
+        
+        <Tech_Level>3</Tech_Level>
+        
+        <Starting_Spawned_Units_Tech_0>Imperial_Gozanti, 2</Starting_Spawned_Units_Tech_0>	
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>		
+        
+        <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>	
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
+        
+        <Starting_Spawned_Units_Tech_4>Imperial_Gozanti, 2</Starting_Spawned_Units_Tech_4>	
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>			
+		
+        <Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>		
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Population_Value>3</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Zaarin_Interdictor_Cruiser">
+        <Variant_Of_Existing_Type>Interdictor_Base</Variant_Of_Existing_Type>
+        
+        <Tech_Level>3</Tech_Level>
+        
+        <Starting_Spawned_Units_Tech_0>Zaarin_Gozanti, 2</Starting_Spawned_Units_Tech_0>	
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>		
+        
+        <Starting_Spawned_Units_Tech_0>Zaarin_TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>	
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>	
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -243,5 +289,3 @@
     </SpaceUnit>
 
 </Interdictor_Cruiser>
-
-

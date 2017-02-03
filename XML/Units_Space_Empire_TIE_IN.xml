@@ -9,7 +9,7 @@
 		<Encyclopedia_Good_Against> Starviper_Fighter X-wing R22_Sparhead </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>IR_TIE_IN.ALO</Space_Model_Name>
-		<Icon_Name>I_BUTTON_IMP_TIE_IN.tga</Icon_Name>
+		<Icon_Name>i_button_EV_TIE_Interceptor.tga</Icon_Name>
 
 		<Scale_Factor>1.0</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -57,7 +57,7 @@
 
         <Hardpoints>HP_TIE_IN_Laser, HP_TIE_IN_Blaster</Hardpoints>
 		
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Green_Dummy</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>4.0</Projectile_Fire_Recharge_Seconds>
@@ -146,6 +146,29 @@
 		<Population_Value>0</Population_Value>
 	</SpaceUnit>
 
+	<SpaceUnit Name="Royal_Guard_TIE_Interceptor">
+		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_ROYAL_TIE_INTERCEPTOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ROYAL_TIE_INTERCEPTOR</Encyclopedia_Text>
+		<Space_Model_Name>IR_TIE_INRG.ALO</Space_Model_Name>
+		<Icon_Name>i_button_RG_TIE_Interceptor.tga</Icon_Name>
+		<Max_Speed>6.0</Max_Speed>
+		<Min_Speed>3.0</Min_Speed>
+		<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
+		<Max_Lift>5</Max_Lift>
+		<Max_Thrust>3.0</Max_Thrust>
+		<Max_Rate_Of_Roll>6.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>80</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>4.0</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Shield_Points>50</Shield_Points>
+		<Tactical_Health>16</Tactical_Health>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+		<Armor_Type> Armor_Fighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+	</SpaceUnit>
+
 
 <!-- **** SQUADRON INFORMATION **** -->
 
@@ -155,7 +178,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Starviper_Fighter X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
-		<Icon_Name>I_BUTTON_IMP_TIE_IN.tga</Icon_Name>
+		<Icon_Name>i_button_EV_TIE_Interceptor.tga</Icon_Name>
 		
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -170,9 +193,9 @@
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Tech_Level>4</Tech_Level>
-		<Required_Timeline/>
+		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures/>
+		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>TIE_Interceptor, TIE_Interceptor, TIE_Interceptor, TIE_Interceptor</Squadron_Units>
 		<Squadron_Units>TIE_Interceptor, TIE_Interceptor, TIE_Interceptor, TIE_Interceptor</Squadron_Units>
@@ -220,7 +243,86 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+	</Squadron>
+
+	<Squadron Name="Royal_Guard_TIE_Interceptor_Squadron">
+		<Text_ID>TEXT_ROYAL_TIE_INTERCEPTOR_SQUADRON</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ROYAL_TIE_INTERCEPTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Starviper_Fighter X-wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Crusader_Gunship Buzz_Droids </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_RG_TIE_Interceptor.tga</Icon_Name>
+		
+		<GUI_Row> 1 </GUI_Row>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Autoresolve_Health>300</Autoresolve_Health>
+		<Damage>25</Damage>
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>375</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Tech_Level>4</Tech_Level>
+		<Required_Timeline />
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+		<Squadron_Units>Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor</Squadron_Units>
+		<Squadron_Units>Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor</Squadron_Units>
+		<Squadron_Units>Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor, Royal_Guard_TIE_Interceptor</Squadron_Units>
+		<Max_Squad_Size>12</Max_Squad_Size>
+		<Squadron_Offsets>0.0,-45.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,45.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-45.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-15.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,15.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,45.0,30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-45.0,-30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-15.0,-30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,15.0,-30.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,45.0,-30.0</Squadron_Offsets>
+
+		<FormationOrder>1</FormationOrder>
+		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Score_Cost_Credits> 500</Score_Cost_Credits>
+		<Population_Value>1</Population_Value>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -233,5 +335,3 @@
 
 
 </TIE_IN_Interceptor>
-
-

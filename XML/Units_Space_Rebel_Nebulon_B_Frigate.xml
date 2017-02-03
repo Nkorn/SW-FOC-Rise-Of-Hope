@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>4250</Shield_Points>
-		<Tactical_Health>3600</Tactical_Health>
+		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -58,9 +58,9 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Build_Cost_Credits>850</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2200</AI_Combat_Power>
+		<AI_Combat_Power>900</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -95,7 +95,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>I_BUTTON_RV_NEBULONB.tga</Icon_Name>
+		<Icon_Name>i_button_escort_frigate.tga</Icon_Name>
 		<GUI_Model_Name>RV_NebulonB.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -204,7 +204,6 @@
 		<Encyclopedia_Good_Against> Corellian_Corvette Hutt_IPV1_Craft </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Alliance_Assault_Frigate Calamari_Cruiser Y-wing </Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>IMP_NebulonB.ALO</Space_Model_Name>
-		<Icon_Name>I_BUTTON_IMP_NEBULONB.tga</Icon_Name>
 		<Affiliation>Empire</Affiliation>
 		<Required_Planets>Kuat</Required_Planets>
         <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -221,7 +220,6 @@
 		<Space_Model_Name>IMP_NebulonB.ALO</Space_Model_Name>
 		<Affiliation>Zaarin</Affiliation>
         <Build_Initially_Locked>No</Build_Initially_Locked>
-        <Icon_Name>I_BUTTON_IMP_NEBULONB.tga</Icon_Name>
 		
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -230,4 +228,3 @@
 
 
 </EF76_Nebulon-B_Escort_Frigate>
-

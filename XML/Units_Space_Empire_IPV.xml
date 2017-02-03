@@ -6,7 +6,7 @@
 		<Encyclopedia_Good_Against> X-wing Pirate_Fighter_PC TIE_Fighter </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Victory_Destroyer Nebulon_B_Frigate Vengeance_Frigate </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>Imp_IPV.ALO</Space_Model_Name>
+		<Space_Model_Name>sfs_IPV.ALO</Space_Model_Name>
 		<Mass>0.9995</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -31,17 +31,17 @@
 		<Hyperspace_Speed>2.0</Hyperspace_Speed> <!-- Modified to have a Class 2.0 Hyperdrive -->
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 
-		<Affiliation/>
+		<Affiliation></Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures/>
+		<Required_Special_Structures />
 		<Required_Planets>Corellia, Corulag, Coruscant, Duro, Eriadu, EttiIV, Falleen, Fondor, Gamorr, Kessel, Mandalore, Mustafar, Muunilinst, NalHutta, NarShaddaa, Ord_Mantell, Raxus_Prime, Ryloth, Saleucami, Scarif, Shola, Taanab, Tatooine, Telos, The_Wheel, Toydaria, Utapau, Yaga_Minor, Ylesia</Required_Planets>
 		<Shield_Points>1350</Shield_Points>
 		<Autoresolve_Health>600</Autoresolve_Health>
 		<Damage>20</Damage>
-		<Tactical_Health>900</Tactical_Health>
+		<Tactical_Health>400</Tactical_Health>
 		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
 		<Energy_Capacity>2000</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -54,7 +54,7 @@
 		<Political_Control>0</Political_Control>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>900</Build_Cost_Credits>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>800</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -83,7 +83,7 @@
 
 		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
 		<Victory_Relevant>yes</Victory_Relevant>
-		<Icon_Name>I_BUTTON_IMP_IPV.tga</Icon_Name>
+		<Icon_Name>i_button_ipv.tga</Icon_Name>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
@@ -146,7 +146,7 @@
 				<Expiration_Seconds>15</Expiration_Seconds>
 				
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_IPV</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated/>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
 
 			</Unit_Ability>
 		
@@ -154,7 +154,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
@@ -174,7 +174,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -195,7 +195,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -214,7 +214,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -233,7 +233,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>1200</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -242,4 +242,3 @@
 	</SpaceUnit>
 	
 </IPV-1_System_Patrol_Craft>
-

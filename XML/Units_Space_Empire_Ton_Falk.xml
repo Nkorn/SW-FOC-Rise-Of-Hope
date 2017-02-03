@@ -5,7 +5,7 @@
 		<Text_ID>TEXT_UNIT_TON_FALK</Text_ID>
 		<Encyclopedia_Good_Against>Assault_Frigate2 X-wing Y-wing</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat A-Wing</Encyclopedia_Vulnerable_To>
-                <GUI_Row>0</GUI_Row>
+        <GUI_Row>0</GUI_Row>
 		<Space_Model_Name>Imp_TonFalk.ALO</Space_Model_Name>
 		<Select_Box_Scale>420</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
@@ -31,11 +31,11 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3000</Autoresolve_Health>
 		<Shield_Points>3500</Shield_Points>
-		<Tactical_Health>2000</Tactical_Health>
+		<Tactical_Health>3420</Tactical_Health>
 		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
-		<Affiliation/>
+		<Affiliation></Affiliation>
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -50,8 +50,8 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1800</Build_Cost_Credits>
-		<AI_Combat_Power>3000</AI_Combat_Power>
+		<Build_Cost_Credits>350</Build_Cost_Credits>
+		<AI_Combat_Power>400</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -86,7 +86,7 @@
 		</HardPoints>
 		
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-        <Icon_Name>I_BUTTON_IMP_TONFALK.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_ESCORT_CARRIER.TGA</Icon_Name>
 		<GUI_Model_Name>Imp_TonFalk.ALO</GUI_Model_Name>
 		<GUI_Distance>1100</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -195,19 +195,19 @@
             <Single_Target_Heal>Yes</Single_Target_Heal>
             <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
             <Applicable_Unit_Categories>Fighter, Bomber</Applicable_Unit_Categories>
-            <Applicable_Unit_Types/>
+            <Applicable_Unit_Types />
             <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
             <Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
             <Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
             <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
             <Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-            <Target_Light_Effect_Color2/>
+            <Target_Light_Effect_Color2 />
             <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
             <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
             <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
             <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
             <Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-            <Owner_Light_Effect_Color2/>
+            <Owner_Light_Effect_Color2 />
             <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
             <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
             <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
@@ -258,7 +258,7 @@
 		<Affiliation>Empire</Affiliation>
 		<Tech_Level>3</Tech_Level>
 		<Required_Orbiting_Units>Empire_Glory_Star_Destroyer</Required_Orbiting_Units>
-		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<AI_Combat_Power>3250</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		
@@ -276,15 +276,17 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TON_FALK_ZAARIN</Encyclopedia_Text>
 		<Affiliation>Zaarin</Affiliation>
 		<Tech_Level>0</Tech_Level>
-		<Build_Cost_Credits>2850</Build_Cost_Credits>
+		<Build_Cost_Credits>2570</Build_Cost_Credits>
 		<AI_Combat_Power>3750</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		
-		<Reserve_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Zaarin_TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Zaarin_TIE_Avenger_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Zaarin_TIE_Defender_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>4</Spawned_Squadron_Delay_Seconds>
-		<Starting_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Zaarin_TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Zaarin_TIE_Avenger_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Zaarin_TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
 
     </SpaceUnit>
 
@@ -293,8 +295,8 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_TON_FALK_EXPERIMENTAL</Encyclopedia_Text>
 		<Affiliation>Zaarin</Affiliation>
 		<Tech_Level>0</Tech_Level>
-		<Required_Orbiting_Units>Glory</Required_Orbiting_Units>
-		<Build_Cost_Credits>2200</Build_Cost_Credits>
+		<Required_Orbiting_Units>Glory_Star_Destroyer</Required_Orbiting_Units>
+		<Build_Cost_Credits>2850</Build_Cost_Credits>
 		<AI_Combat_Power>3250</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		
@@ -309,4 +311,3 @@
 	
 
 </Ton_Falk_Escort_Carrier>
-

@@ -51,7 +51,7 @@
 		<Required_Special_Structures/>
 		<Required_Planets/>
 		<Shield_Points>1800</Shield_Points>
-		<Tactical_Health>950</Tactical_Health>
+		<Tactical_Health>900</Tactical_Health>
 		<Shield_Refresh_Rate>65</Shield_Refresh_Rate>
 		<Energy_Capacity>1800</Energy_Capacity>
 		<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
@@ -65,46 +65,33 @@
 		<Squadron_Capacity>1</Squadron_Capacity>
 		<Transport_Capacity>6</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1800</Build_Cost_Credits>
+		<Build_Cost_Credits>675</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1800</AI_Combat_Power>
+		<AI_Combat_Power>725</AI_Combat_Power>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, ABILITY_COUNTDOWN, REVEAL, TARGETING, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
+		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, ABILITY_COUNTDOWN, REVEAL, TARGETING, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
 		
 		<Space_FOW_Reveal_Range>1400.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 		<CategoryMask> Corvette | AntiFrigate | AntiCapital </CategoryMask>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-        
-        <!-- Early Fighter complement -->
-		<Starting_Spawned_Units_Tech_0>Z-95_Squadron, 1</Starting_Spawned_Units_Tech_0>
-        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-
-        <!-- Fighter complement -->
-        <Starting_Spawned_Units_Tech_2>X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_2>
-        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 
 		<HardPoints> 
-		HP_Marauder_LCM_02,
-		HP_Marauder_LCM_01,
 		HP_Marauder_HTL_02,
 		HP_Marauder_HTL_01,
-		HP_Marauder_MTLT_04,
-		HP_Marauder_MTLT_03,
 		HP_Marauder_MTLT_02,
 		HP_Marauder_MTLT_01,
 		HP_Marauder_LLT_02,
 		HP_Marauder_LLT_01,
 		HP_Marauder_Bridge,
-		HP_Marauder_Hangar,
 		HP_Marauder_Engines
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_RV_MARAUDER.tga</Icon_Name>
+		<Icon_Name>rv_missile_ship.tga</Icon_Name>
 		<GUI_Model_Name>RV_Marauder.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -192,7 +179,7 @@
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>RV_Marauder.alo</Space_Model_Name>
-		<Icon_Name>I_BUTTON_RV_MARAUDER.tga</Icon_Name>
+		<Icon_Name>i_button_marauder.tga</Icon_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -249,7 +236,7 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>3200</Build_Cost_Credits>
+		<Build_Cost_Credits>1800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
 		<AI_Combat_Power>1800</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
@@ -365,3 +352,4 @@
 	</SpaceUnit>
 	
 </Marauder_Corvette>
+

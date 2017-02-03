@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3400</Autoresolve_Health>
 		<Shield_Points>8270</Shield_Points>
-		<Tactical_Health>3970</Tactical_Health>
+		<Tactical_Health>11540</Tactical_Health>
 		<Shield_Refresh_Rate>180</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
@@ -87,6 +87,9 @@
 		<SFXEvent_Fire>Unit_Missile_Fire</SFXEvent_Fire>
 
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+
+		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_4>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
 		
 		<HardPoints>

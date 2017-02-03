@@ -51,7 +51,7 @@
 		<Required_Special_Structures/>
 		<Required_Planets/>
 		<Shield_Points>1500</Shield_Points>
-		<Tactical_Health>950</Tactical_Health>
+		<Tactical_Health>960</Tactical_Health>
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>1800</Energy_Capacity>
 		<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
@@ -65,9 +65,9 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Transport_Capacity>6</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1350</Build_Cost_Credits>
+		<Build_Cost_Credits>350</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1350</AI_Combat_Power>
+		<AI_Combat_Power>400</AI_Combat_Power>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -91,7 +91,7 @@
 		HP_CR_90_MTLT_02
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_RV_CR90.tga</Icon_Name>
+		<Icon_Name>i_button_corellian_corvette.tga</Icon_Name>
 		<GUI_Model_Name>cr_90.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -187,7 +187,6 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Tech_Level>99</Tech_Level>
-		<Icon_Name>I_BUTTON_RV_CR90_FREEDOM.tga</Icon_Name>
 		<HardPoints> 
 		HP_HERO_CR90_Bridge,
 		HP_HERO_CR90_Engines,
@@ -207,11 +206,10 @@
 		<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>	
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser TIE_Bomber Y-Wing</Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Interceptor4_Frigate </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>cr_90.ALO</Space_Model_Name> <!-- Grey version of the CR90, you'll have to either export one or delete this line to get it to work in-game. -->
+		<Space_Model_Name>Zaarin_cr_90.ALO</Space_Model_Name> <!-- Grey version of the CR90, you'll have to either export one or delete this line to get it to work in-game. -->
 		<Affiliation>Zaarin</Affiliation>	
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 	</SpaceUnit>
 	
 </CR90_Corvette>
-

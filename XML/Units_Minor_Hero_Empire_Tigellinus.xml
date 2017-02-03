@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<Grand_Admiral_Rufaan_Tigellinus>
+
+	<!-- The Avatar Star Destroyer is used by Grand Admiral Rufaan Tigellinus (Empire Minor Hero) during space battles -->
+	<UniqueUnit Name="Avatar_Star_Destroyer">
+		<Variant_Of_Existing_Type>Generic_Star_Destroyer_II</Variant_Of_Existing_Type>
+		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Interceptor4_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat</Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_ga_tigellinus.tga</Icon_Name>
+		<Is_Named_Hero>No</Is_Named_Hero>
+        <Show_Hero_Head>Yes</Show_Hero_Head>
+
+		<Text_ID>TEXT_UNIT_SD_AVATAR</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TIGELLINUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GRAND_ADMIRAL </Encyclopedia_Unit_Class>
+
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+
+        <Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>	
+        <Starting_Spawned_Units_Tech_0>Skipray_Squadron, 1</Starting_Spawned_Units_Tech_0>		
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>		
+        <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		
+        <Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_3>
+        <Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>		
+        <Starting_Spawned_Units_Tech_3>Skipray_Squadron, 1</Starting_Spawned_Units_Tech_3>	
+        <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>		
+        <Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_3>
+        <Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_3>
+		
+        <Ranking_In_Category>3</Ranking_In_Category>
+		<HardPoints> 
+			HP_ISD_II_MTLT_29,
+			HP_ISD_II_MTLT_28,
+			HP_ISD_II_MTLT_27,
+			HP_ISD_II_MTLT_26,
+			HP_ISD_II_MTLT_25,
+			HP_ISD_II_MTLT_24,
+			HP_ISD_II_MTLT_23,
+			HP_ISD_II_MTLT_22,
+			HP_ISD_II_MTLT_21,
+			HP_ISD_II_MTLT_20,
+			HP_ISD_II_MTLT_19,
+			HP_ISD_II_MTLT_18,
+			HP_ISD_II_MTLT_17,
+			HP_ISD_II_MTLT_16,
+			HP_ISD_II_MTLT_15,
+			HP_ISD_II_MTLT_14,
+			HP_ISD_II_MTLT_13,
+			HP_ISD_II_MTLT_12,
+			HP_ISD_II_MTLT_11,
+			HP_ISD_II_MTLT_10,
+			HP_ISD_II_MTLT_09,
+			HP_ISD_II_MTLT_08,
+			HP_ISD_II_MTLT_07,
+			HP_ISD_II_MTLT_06,
+			HP_ISD_II_MTLT_05,
+			HP_ISD_II_MTLT_04,
+			HP_ISD_II_MTLT_03,
+			HP_ISD_II_MTLT_02,
+			HP_ISD_II_MTLT_01,
+			HP_ISD_II_HQAA_02,
+			HP_ISD_II_HQAA_01,
+			HP_ISD_II_OTL_08,
+			HP_ISD_II_OTL_07,
+			HP_ISD_II_OTL_06,
+			HP_ISD_II_OTL_05,
+			HP_ISD_II_OTL_04,
+			HP_ISD_II_OTL_03,
+			HP_ISD_II_OTL_02,
+			HP_ISD_II_OTL_01,
+			HP_ISD_II_QTLT_06,
+			HP_ISD_II_QTLT_05,
+			HP_ISD_II_QTLT_04,
+			HP_ISD_II_QTLT_03,
+			HP_ISD_II_QTLT_02,
+			HP_ISD_II_QTLT_01,
+			HP_ISD_II_TTLT_03,
+			HP_ISD_II_TTLT_02,
+			HP_ISD_II_TTLT_01,
+			HP_ISD_II_DTLT_02,
+			HP_ISD_II_DTLT_01,
+			HP_ISD_II_XX9_25,
+			HP_ISD_II_XX9_24,
+			HP_ISD_II_XX9_23,
+			HP_ISD_II_XX9_22,
+			HP_ISD_II_XX9_21,
+			HP_ISD_II_XX9_20,
+			HP_ISD_II_XX9_19,
+			HP_ISD_II_XX9_18,
+			HP_ISD_II_XX9_17,
+			HP_ISD_II_XX9_16,
+			HP_ISD_II_XX9_15,
+			HP_ISD_II_XX9_14,
+			HP_ISD_II_XX9_13,
+			HP_ISD_II_XX9_12,
+			HP_ISD_II_XX9_11,
+			HP_ISD_II_XX9_10,
+			HP_ISD_II_XX9_09,
+			HP_ISD_II_XX9_08,
+			HP_ISD_II_XX9_07,
+			HP_ISD_II_XX9_06,
+			HP_ISD_II_XX9_05,
+			HP_ISD_II_XX9_04,
+			HP_ISD_II_XX9_03,
+			HP_ISD_II_XX9_02,
+			HP_ISD_II_XX9_01,
+			HP_ISD_II_XX9_S_08,
+			HP_ISD_II_XX9_S_07,
+			HP_ISD_II_XX9_S_06,
+			HP_ISD_II_XX9_S_05,
+			HP_ISD_II_XX9_S_04,
+			HP_ISD_II_XX9_S_03,
+			HP_ISD_II_XX9_S_02,
+			HP_ISD_II_XX9_S_01,
+			HP_ISD_II_NK7_13,
+			HP_ISD_II_NK7_12,
+			HP_ISD_II_NK7_11,
+			HP_ISD_II_NK7_10,
+			HP_ISD_II_NK7_09,
+			HP_ISD_II_NK7_08,
+			HP_ISD_II_NK7_07,
+			HP_ISD_II_NK7_06,
+			HP_ISD_II_NK7_05,
+			HP_ISD_II_NK7_04,
+			HP_ISD_II_NK7_03,
+			HP_ISD_II_NK7_02,
+			HP_ISD_II_NK7_01,
+			HP_ISD_II_SG_01,
+			HP_ISD_II_SG_02,
+			HP_ISD_II_SG_03,
+			HP_ISD_II_Bridge,
+			HP_ISD_II_Hangar,
+			HP_ISD_II_Engines
+		</HardPoints>
+
+		<Tech_Level>99</Tech_Level>
+		<SFXEvent_Select>Unit_Select_IMP_Admiral</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_IMP_Admiral</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_IMP_Admiral</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_IMP_Admiral</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_IMP_Admiral</SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_IMP_Admiral </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_IMP_Admiral </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_IMP_Admiral </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_IMP_Admiral</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+	  
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>4</Population_Value>
+
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<!-- Hero abilities for Grand Admiral Rufaan Tigellinus added to ship; Hero "moveable" unit removed -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			
+            <Unit_Ability>
+				<Type>POWER_TO_WEAPONS</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
+				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
+				<Recharge_Seconds>50</Recharge_Seconds>
+				<Expiration_Seconds>7</Expiration_Seconds>
+                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
+                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
+                <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Tigellinus_Combat_Bonus_General">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.0</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.25</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+
+
+		</Abilities>
+		
+	</UniqueUnit>
+
+
+</Grand_Admiral_Rufaan_Tigellinus>

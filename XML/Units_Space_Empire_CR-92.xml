@@ -50,8 +50,8 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures/>
 		<Required_Planets>Corellia</Required_Planets>
-		<Shield_Points>1500</Shield_Points>
-		<Tactical_Health>1250</Tactical_Health>
+		<Shield_Points>1550</Shield_Points>
+		<Tactical_Health>1510</Tactical_Health>
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>1800</Energy_Capacity>
 		<Energy_Refresh_Rate>350</Energy_Refresh_Rate>
@@ -65,9 +65,9 @@
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Transport_Capacity>6</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>1450</Build_Cost_Credits>
+		<Build_Cost_Credits>250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>1450</AI_Combat_Power>
+		<AI_Combat_Power>450</AI_Combat_Power>
 		<Build_Time_Seconds>5</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -94,7 +94,7 @@
 		HP_CR_92_PTL
 		</HardPoints>
 
-		<Icon_Name>I_BUTTON_IMP_CR92.tga</Icon_Name>
+		<Icon_Name>i_button_assassin_corvette.tga</Icon_Name>
 		<GUI_Model_Name>Imp_CR92Corvette.ALO</GUI_Model_Name>
 		<GUI_Distance>600</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
@@ -194,7 +194,7 @@
 
 	<SpaceUnit Name="Zaarin_Assassin_Corvette">
 		<Variant_Of_Existing_Type>Assassin_Corvette</Variant_Of_Existing_Type>		
-		<Required_Planets/>
+		<Required_Planets />
 		<Affiliation>Zaarin</Affiliation>	
 	</SpaceUnit>
 	

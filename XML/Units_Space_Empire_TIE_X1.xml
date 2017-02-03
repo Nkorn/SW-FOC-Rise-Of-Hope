@@ -26,7 +26,7 @@
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>0.5</Hyperspace_Speed> <!-- Class 4.0 -->
+		<Hyperspace_Speed>0.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 		<Fires_Forward>no</Fires_Forward>
@@ -107,7 +107,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>I_BUTTON_IMP_TIE_ADV.tga</Icon_Name>
+		<Icon_Name>i_button_tie_advanced.tga</Icon_Name>
 		<Victory_Relevant>Yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -186,7 +186,7 @@
 		<Squadron_Offsets>0.0,-15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,15.0,-30.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,45.0,-30.0</Squadron_Offsets>
-		<Icon_Name>I_BUTTON_IMP_TIE_ADV.tga</Icon_Name>
+		<Icon_Name>i_button_tie_advanced.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

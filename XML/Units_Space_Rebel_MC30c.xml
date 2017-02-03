@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>4000</Autoresolve_Health>
 		<Shield_Points>6675</Shield_Points>
-		<Tactical_Health>1400</Tactical_Health>
+		<Tactical_Health>3370</Tactical_Health>
 		<Shield_Refresh_Rate>175</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -58,9 +58,9 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2700</Build_Cost_Credits>
+		<Build_Cost_Credits>950</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2700</AI_Combat_Power>
+		<AI_Combat_Power>1150</AI_Combat_Power>
 		<Build_Time_Seconds>40</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -108,7 +108,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCapital </CategoryMask>
-		<Icon_Name>I_BUTTON_RV_MC30c.tga</Icon_Name>
+		<Icon_Name>i_button_mc30c.tga</Icon_Name>
 		<GUI_Model_Name>RV_MC30.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

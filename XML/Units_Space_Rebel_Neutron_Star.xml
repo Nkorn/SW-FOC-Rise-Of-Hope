@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>3600</Autoresolve_Health>
 		<Shield_Points>7250</Shield_Points>
-		<Tactical_Health>3600</Tactical_Health>
+		<Tactical_Health>4950</Tactical_Health>
 		<Shield_Refresh_Rate>120</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -58,9 +58,9 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<Build_Cost_Credits>2600</Build_Cost_Credits>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2750</AI_Combat_Power>
+		<AI_Combat_Power>750</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -121,7 +121,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>I_BUTTON_RV_BULKCRUISER.tga</Icon_Name>
+		<Icon_Name>i_button_neutron_star.tga</Icon_Name>
 		<GUI_Model_Name>RV_BulkCruiser.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>

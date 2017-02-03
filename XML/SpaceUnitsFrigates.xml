@@ -202,7 +202,7 @@
 
 	</SpaceUnit>
 
-	<SpaceUnit Name="Alliance_Assault_Frigate">
+	<!--<SpaceUnit Name="Alliance_Assault_Frigate">
 		<Text_ID>TEXT_UNIT_ASSAULT_FRIGATE</Text_ID>
 		<Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Crusader_Gunship Broadside_Class_Cruiser </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Kedalbe_Battleship</Encyclopedia_Vulnerable_To>
@@ -237,8 +237,8 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>3500</Autoresolve_Health>
 		<Shield_Points>900</Shield_Points>
-		<Tactical_Health>3000</Tactical_Health> <!-- was 2800 -->
-		<Shield_Refresh_Rate>63</Shield_Refresh_Rate> <!-- was 50 -->
+		<Tactical_Health>3000</Tactical_Health>
+		<Shield_Refresh_Rate>63</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -350,17 +350,15 @@
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>15</Expiration_Seconds>
 				<Recharge_Seconds>60</Recharge_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
 				
@@ -375,17 +373,13 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2500</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
-	</SpaceUnit>
+	</SpaceUnit>-->
 
      <SpaceUnit Name="Assault_Frigate_Death_Clone">
 		<Text_ID>TEXT_UNIT_ASSAULT_FRIGATE</Text_ID>
@@ -614,7 +608,7 @@
 		
 	</SpaceUnit>-->
 
-	<SpaceUnit Name="Acclamator_Assault_Ship">
+	<!--<SpaceUnit Name="Acclamator_Assault_Ship">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Marauder_Missile_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Calamari_Cruiser Skipray_Blastboat Y-wing </Encyclopedia_Vulnerable_To>
@@ -648,7 +642,7 @@
 		<Autoresolve_Health>2400</Autoresolve_Health>
 		<Shield_Points>600</Shield_Points>
 		<Tactical_Health>2000</Tactical_Health>
-		<Shield_Refresh_Rate>62</Shield_Refresh_Rate> <!-- was 50 -->
+		<Shield_Refresh_Rate>62</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
@@ -685,11 +679,9 @@
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		<Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 		
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<!--Currently no reserves -->
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 		
 		<HardPoints>
@@ -762,9 +754,7 @@
 
 		<Tactical_Bribe_Cost>1500</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>power_to_weapons</Type>
 				<Expiration_Seconds>20</Expiration_Seconds>
@@ -783,16 +773,12 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 1800</Score_Cost_Credits>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites/>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
-	</SpaceUnit>
+	</SpaceUnit>-->
 
      <SpaceUnit Name="Acclamator_Death_Clone">
 		<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
@@ -1402,6 +1388,8 @@
 
 
 </SpaceUnitsFrigates>
+
+
 
 
 

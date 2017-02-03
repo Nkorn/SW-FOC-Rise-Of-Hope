@@ -12,7 +12,7 @@
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Krayt_Class_Destroyer </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender Crusader_Gunship</Encyclopedia_Vulnerable_To>
 		<Space_Model_Name>ga_Bwing.alo</Space_Model_Name>
-		<Icon_Name>I_BUTTON_RV_BWING.tga</Icon_Name>
+		<Icon_Name>i_button_RV_BWing.tga</Icon_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
@@ -34,7 +34,7 @@
 		<Bank_Turn_Angle>80</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
 		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>2.0</Hyperspace_Speed> <!-- Class 2.0 -->
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
 		<Affiliation>Rebel</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -67,7 +67,7 @@
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
 		
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Large_Laser_Cannon_Green_Dummy</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>3</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.0</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
@@ -171,7 +171,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser TIE_Defender </Encyclopedia_Vulnerable_To>
-		<Icon_Name>I_BUTTON_RV_BWING.tga</Icon_Name>
+		<Icon_Name>i_button_RV_BWing.tga</Icon_Name>
 		
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -182,16 +182,16 @@
 		<Damage>15</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Political_Control>0</Political_Control>
-		<Build_Cost_Credits>300</Build_Cost_Credits>
+		<Build_Cost_Credits>264</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>400</Slice_Cost_Credits>
 		<Tech_Level>4</Tech_Level>
-		<Required_Timeline/>
+		<Required_Timeline />
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Special_Structures/>
+		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
 		<Squadron_Units>B-Wing, B-Wing</Squadron_Units>
 		<Squadron_Units>B-Wing, B-Wing</Squadron_Units>
@@ -243,7 +243,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>700</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites/>
+		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
@@ -258,4 +258,3 @@
 	
 
 </A_SF-01_B-Wing_Starfighter>
-

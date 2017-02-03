@@ -14,7 +14,7 @@
 		<Damage>30</Damage>
 		<Autoresolve_Health>2950</Autoresolve_Health>
 		<Shield_Points>6025</Shield_Points>
-		<Tactical_Health>3200</Tactical_Health>
+		<Tactical_Health>2695</Tactical_Health>
 		<Shield_Refresh_Rate>115</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
@@ -104,7 +104,7 @@
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
-		<Icon_Name>I_BUTTON_IMP_GLADIATOR.tga</Icon_Name>
+		<Icon_Name>i_button_gladiator.tga</Icon_Name>
 		<GUI_Model_Name>Imp_Gladiator.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
